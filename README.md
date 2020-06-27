@@ -2,7 +2,7 @@
 
 ### Collaboration Instructions:
 
-1. Clone this repository to your local PC.
+1. Fork this repository to your local PC.
 2. Your assets such as images, CSS file, JavaScript file should be placed in the Images, CSS, Javascript folders respectively.
 3. Use 90% botstrap for your styling.
 4. Ensure responsiveness in your designs. **Important** .
