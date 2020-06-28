@@ -1,4 +1,9 @@
 ## Construction Site - Envato Project - Team F
+## Variation2
+## Slack Username: @shola 
+## Email: ohksam@gmail.com
+## Link: https://Construction--oluwanishola.repl.co 
+## Designs: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
 
 ### Collaboration Instructions:
 
