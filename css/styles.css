@@ -755,6 +755,11 @@ border: solid 1px #FCC139;
         font-size: 18px
     }
     
+    .card-1 {
+        left: 20%;
+        width: 90%;
+       
+    }
     .img-card {
         position: relative;
         width: 350px;
@@ -767,14 +772,21 @@ border: solid 1px #FCC139;
         width: 300px;
         left: 200px
     }
+
     
     .card-text {
-        width: 450px
+        width: 320px;
+        text-align: center;
+    }
+    
+    .card-body-1 .card-title {
+        position: relative;
+        left: 35%;
     }
     
     .nav-link-card {
         position: relative;
-        left: 13px;
+        left: 150px;
         
     }
     
@@ -834,6 +846,12 @@ border: solid 1px #FCC139;
         left: 15%
     }
     
+    .card-1 {
+        position: relative;
+        left: 50px;
+     
+    }
+    
 }
 /***********************************END MEDIA QUERIES 625PX-MAX-WIDTH***************************************/
 
@@ -882,7 +900,7 @@ border: solid 1px #FCC139;
     
     .message {
         position: relative;
-        left: 8%;
+        left: 17%;
         top: 60px;
         width: 100%;
             
@@ -903,7 +921,13 @@ border: solid 1px #FCC139;
     }
     
     .card-text {
-        width: 400px
+        width: 320px;
+    }
+    .card-1 {
+        margin: auto 20px
+        position: relative;
+        left: 23px;
+     
     }
     
     .foot-col p {
@@ -963,6 +987,13 @@ border: solid 1px #FCC139;
         padding: 0px;
         overflow-x: hidden;
     }
+    
+    .card-1 {
+        position: relative;
+        left: 25px;
+     
+    }
+    
     .img-card {
         width:  100%;
     }
@@ -975,4 +1006,40 @@ border: solid 1px #FCC139;
         font-size: 12px;
     }
        
+}
+
+/***********************************MEDIA QUERIES 385PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 385px) { 
+    
+    .message {
+        left: 40px;
+    }
+    .card-1 {
+        position: relative;
+        left: 25px;
+     
+    }
+    
+    .img-card {
+        width:  100%;
+    }
+    
+    .card-text {
+        font-size: 0.8em;
+        width: 80%;
+    }
+    
+    .card-body-1 .card-title {
+        position: relative;
+        left: 20%;
+    }
+    
+    .nav-link-card {
+        position: relative;
+        left: 100px;
+        
+    }
+    
+    
 }
