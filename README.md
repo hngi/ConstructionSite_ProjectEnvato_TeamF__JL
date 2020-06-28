@@ -10,3 +10,9 @@
 6. Once you are done working run "git pull" locally.
 7. Push your code to the repository.
 8. Make a Pull Request to the branch of the version you are working on.
+
+Variation 1
+Slack Username - @kunmi
+Email - tobifaniran@gmail.com
+Link: https://affectionate-goldwasser-d81fa3.netlify.app/
+Figma link - https://www.figma.com/file/OddAGijOT8dgTxoM6cPd6Z/Construction-WEbsite?node-id=0%3A1
