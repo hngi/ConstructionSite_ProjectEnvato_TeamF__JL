@@ -1,11 +1,11 @@
 # Construction Site - Envato Project - Team F
 ### Main Design - Sixth Variation 
  
-Slack Username: @lucasD
-Email: gomez.d.lucas@gmail.com
-Link: https://construction-maindesign-6.netlify.app/
+* Slack Username: @lucasD
+* Email: gomez.d.lucas@gmail.com
+* Link: https://construction-maindesign-6.netlify.app/
+* Designs: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
 
-Designs: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
 
 ### Collaboration Instructions:
 
