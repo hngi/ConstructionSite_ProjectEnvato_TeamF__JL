@@ -1,5 +1,11 @@
 ## Construction Site - Envato Project - Team F
 
+## Variation 3
+## Slack Username: @Doni
+## E-mail: donimuvukor@gmail.com
+## Link: 
+## Design: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
+
 ### Collaboration Instructions:
 
 1. Fork this repository to your local PC.
