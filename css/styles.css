@@ -459,15 +459,74 @@ svg.rightFA {
 
 /* Recent News */
 #recentnews {
-  height: 550px;
+  height: 570px;
+}
+#recentnews .container {
+  background-color: #f6f6f6;
+}
+.recent-1 {
+  background: url(../img/Rectangle24.png) center center no-repeat;
+  height: 200px;
+  width: 280px;
+  background-size: cover;
+}
+.recent-2 {
+  background: url(../img/Rectangle25.png) center center no-repeat;
+  height: 200px;
+  width: 280px;
+  background-size: cover;
 }
 
+.recent-3 {
+  background: url(../img/Rectangle26.png) center center no-repeat;
+  height: 200px;
+  width: 280px;
+  background-size: cover;
+}
 /* Our patners */
 #ourpartners {
   height: 200px;
 }
 
 /* Footer */
+footer {
+  background-color: #202e31;
+  color: #fff;
+}
+
+footer h5 {
+  color: #fcc139;
+  font-weight: 600;
+  font-size: 18px;
+}
+.row2 {
+  color: #fcc139;
+}
+
+.f11,
+.f12,
+.f13,
+.f14 {
+  background: url(../img/footer11.png) center center no-repeat;
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+}
+
+.f21,
+.f22,
+.f23,
+.f24 {
+  background: url(../img/footer21.png) center center no-repeat;
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+}
+
+.footerbtn {
+  border: 2px solid #fcc139;
+  margin-top: 10px;
+}
 
 /* CAROUSEL STYLING */
 .carousel-item {
