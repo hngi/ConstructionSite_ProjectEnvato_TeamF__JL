@@ -89,6 +89,83 @@ line-height: 31px;
 }
 /* about us */
 
+/* Recent Project */
+.recent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/assets/background2.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 3% 10% 2%;
+  position: relative;
+}
+.recent img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.recent h3 {
+  text-align: center;
+  color: #fff;
+  }
+
+.recent hr {
+  border: 4px solid #FCC139;
+  width: 100px;
+  border-radius: 5px;
+  left: 50%;
+} 
+/* Recent Project */
+
+/* services */
+.services {
+  padding: 3% 10% 2%;
+}
+.service-box {
+ background: #F3F3F3;
+  width: 320px;
+  height: 200px;
+  margin: 20px 20px;
+     padding: 20px 20px;
+
+}
+.service-box-inside {
+  
+   padding: 20px 20px;
+  border: 1px solid #000000;
+  height: 160px;
+  width: 280px;
+  background: #fff;
+}
+.services h5 {
+   position: relative;
+  display: inline-block;
+  top: 60%;
+  width:100%;
+  text-align: right;
+  font-weight: bold;
+}
+/* services */
+
+
+/* TESTIMONIALS */
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/assets/background3.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 3% 10% 2%;
+  position: relative;
+}
+.testimonials h3 {
+  text-align: center;
+  color: #fff;
+}
+/* TESTIMONIALS */
 /* partners */
 .partners {
   padding: 5% 10% 5%;
