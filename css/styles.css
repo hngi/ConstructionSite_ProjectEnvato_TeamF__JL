@@ -240,4 +240,18 @@ footer{
     padding-top: 2rem; 
     margin-left: 2rem;   
   }
+.blog{
+  display: none;
+}
+.partners{
+  margin-top: -4.5rem;
+height: 17rem;
+overflow-x: hidden;
+margin-right: -4rem;
+margin-left: -3rem;
+display: revert;
+}
+.mm{
+  padding: 20px;
+}
 }
