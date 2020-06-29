@@ -5,6 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
+
 }
 .masthead {
   height: 75vh;
@@ -42,6 +43,7 @@ margin-left: 8rem;
 }
 .un{
   color:white;
+  font-size: .7rem;
 }
 .card-deck .card{
   border: transparent;
@@ -215,4 +217,23 @@ footer{
 .footer-copyright{
   color: #FCC139;
 }
+.one-auto{
+  margin-left:10rem;
+  margin-right:10rem;
+}
 
+/* responsive */
+@media(max-width:800px){
+  .one-auto{
+    margin-top:1rem;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+  }
+  .mx-auto1{
+    margin-left: 12.5rem !important;
+  }
+  .mx-auto2{
+    padding-right: 23rem !important;
+  }
+}
