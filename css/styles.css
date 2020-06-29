@@ -40,6 +40,29 @@ body {
   display: none;
   color: #000;
 }
+.footer {
+  background-color: #202E31;
+}
+.footer h5, .footer .small {
+  color: #FCC139;
+  font-size: 20px !important;
+}
+.footer .small {
+  color: #FCC139;
+}
+.footer p {
+  color: #fff;
+}
+.footer input {
+  border: none;
+  padding: 0.6rem !important;
+}
+.btn {
+  color: #202E31;
+  background-color: #FCC139;
+  font-weight: 600;
+}
+
 
 @media screen and (max-width: 600px) {
   .primary-header h1 {
