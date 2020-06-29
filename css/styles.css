@@ -16,9 +16,6 @@ body {
 }
 
 /*------------------------header and footer-----------------------------------*/
-header {
-  width: 100%;
-}
 .primary-header {
   background: #fff;
 }
@@ -44,14 +41,18 @@ header {
   color: #000;
 }
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 600px) {
+  .primary-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
@@ -283,6 +284,12 @@ input {
 
 
 @media only screen and (max-width: 426px) {
+  .home-page-upper a {
+    margin-bottom: 0 !important;
+  }
+  .input {
+    padding: 14px 0 0 16px;
+  }
   .abt {
     padding-top: 42%;
   }
