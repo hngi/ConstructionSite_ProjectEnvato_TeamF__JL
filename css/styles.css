@@ -25,8 +25,8 @@ body {
 }
 
 .c {
-  width: 1110px;
-  margin: auto;
+  max-width: 1110px;
+  /* margin: auto; */
 }
 
 h2 {
@@ -305,14 +305,117 @@ svg.rightFA {
 
 /* Blog Posts */
 #blogposts {
+  min-height: 400px;
+}
+#blogposts .c {
   background: #f6f6f6;
+  margin: auto;
   /* width: 1100px; */
   /* height: 400px; */
 }
 
+#blogposts h2 {
+  position: relative;
+}
+
+#blogposts h2:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  display: block;
+  height: 5px;
+  background-color: #fcc139;
+  bottom: -8px;
+}
+.white {
+  background-color: #fff;
+  padding: 20px;
+  height: 100%;
+}
+
+.blog-0 {
+  background: url(../img/Rectangle19.png) center center no-repeat;
+  height: 49%;
+  width: 100%;
+  background-size: cover;
+}
+.blog-1 {
+  background: url(../img/Rectangle21.png) center center no-repeat;
+  height: 49%;
+  width: 100%;
+  background-size: cover;
+}
+
+.blog-2 {
+  background: url(../img/Rectangle62i.png) center center no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
 /* Our services */
 #ourservices {
-  min-height: 300px;
+  /* min-height: 300px; */
+}
+
+#ourservices .row {
+  margin: auto;
+}
+
+#ourservices h4 {
+  font-size: 18px;
+  position: absolute;
+  top: 80%;
+  right: 15px;
+}
+
+/* #ourservices .lt {
+  top: 80%;
+  left: 140px;
+} */
+
+.s1,
+.s2,
+.s3 {
+  width: 260px;
+  height: 160px;
+  background-color: #f6f6f6;
+}
+
+.service1,
+.service2,
+.service3 {
+  border: 2px solid #000;
+  width: 240px;
+  height: 140px;
+  position: relative;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.serv-1 {
+  background: url(../img/Component1.png) left center no-repeat;
+  height: 40px;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 10px;
+  background-size: cover;
+}
+.serv-2 {
+  background: url(../img/Component2.png) left center no-repeat;
+  height: 40px;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 10px;
+  background-size: cover;
+}
+.serv-3 {
+  background: url(../img/Component2.png) left center no-repeat;
+  height: 40px;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 10px;
+  background-size: cover;
 }
 
 /* Testimonials */
