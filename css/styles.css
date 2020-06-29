@@ -4,4 +4,29 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+/*Styles for home section */
+.home-section {
+   background-image: url('../images/home/home.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
 
+.home-section .navbar {
+  background-color: transparent;
+  color: #ffffff;
+  z-index: 2;
+}
+.navbar ul li a {
+  font-size: 1.2em;
+  font-weight: 600;
+};
+
+.navbar ul li a:hover {
+  color: #FFA700;
+}
