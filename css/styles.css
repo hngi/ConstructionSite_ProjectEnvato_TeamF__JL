@@ -248,19 +248,19 @@ svg.rightFA {
 .carDiv {
   margin: auto;
 }
-.recent-1 {
+.recentp-1 {
   background: url(../img/Rectangle13.png) center center no-repeat;
   height: 200px;
   width: 100%;
   background-size: cover;
 }
-.recent-2 {
+.recentp-2 {
   background: url(../img/Rectangle14.png) center center no-repeat;
   height: 200px;
   width: 100%;
   background-size: cover;
 }
-.recent-3 {
+.recentp-3 {
   background: url(../img/Rectangle15.png) center center no-repeat;
   height: 200px;
   width: 100%;
@@ -507,7 +507,6 @@ footer h5 {
 .f12,
 .f13,
 .f14 {
-  background: url(../img/footer11.png) center center no-repeat;
   height: 60px;
   width: 60px;
   background-size: cover;
@@ -517,10 +516,34 @@ footer h5 {
 .f22,
 .f23,
 .f24 {
-  background: url(../img/footer21.png) center center no-repeat;
   height: 60px;
   width: 60px;
   background-size: cover;
+}
+
+.f11 {
+  background: url(../img/footer11.png) center center no-repeat;
+}
+.f12 {
+  background: url(../img/footer12.png) center center no-repeat;
+}
+.f13 {
+  background: url(../img/footer13.png) center center no-repeat;
+}
+.f14 {
+  background: url(../img/footer14.png) center center no-repeat;
+}
+.f21 {
+  background: url(../img/footer21.png) center center no-repeat;
+}
+.f22 {
+  background: url(../img/footer22.png) center center no-repeat;
+}
+.f23 {
+  background: url(../img/footer23.png) center center no-repeat;
+}
+.f24 {
+  background: url(../img/footer24.png) center center no-repeat;
 }
 
 .footerbtn {
