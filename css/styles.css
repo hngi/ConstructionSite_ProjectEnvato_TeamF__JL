@@ -87,6 +87,18 @@ color: #FFFFFF;
   width: 30px;
   height: 30px;
 }
+.dot {
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+}
+.dit{
+  background-color: #FCC139;
+  border: transparent;
+}
 .test{
   margin-top: 2rem;
 font-style: normal;
