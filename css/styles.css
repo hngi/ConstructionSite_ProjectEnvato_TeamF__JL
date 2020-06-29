@@ -64,6 +64,8 @@ line-height: 38px;
 display: flex;
 align-items: center;
 color: #FFFFFF;
+padding-top: 2rem; 
+margin-left: 10rem;
 }
 .pic-headw{
   font-style: normal;
@@ -227,12 +229,15 @@ footer{
     margin-top:1rem;
     margin-right: 0;
     margin-left: 0;
-    display: flex;
   }
   .mx-auto1{
-    margin-left: 12.5rem !important;
+    margin-left: 5.5rem !important;
   }
   .mx-auto2{
-    padding-right: 23rem !important;
+    padding-right: 12rem !important;
+  }
+  .pic-head{
+    padding-top: 2rem; 
+    margin-left: 2rem;   
   }
 }
