@@ -162,13 +162,9 @@ svg.rightFA {
   padding: 10px;
 }
 
-#showcase .row {
-}
-
 .showcaseC {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: flex-start;
   max-width: 550px;
   padding-top: 100px;
@@ -458,9 +454,12 @@ svg.rightFA {
   height: 100%;
 }
 
+#testimonials p {
+  font-size: 18.5px;
+}
 .img-slide {
   border: 1px solid #d5a43b;
-  padding: 10px;
+  padding: 15px;
   position: relative;
 }
 
@@ -469,6 +468,11 @@ svg.rightFA {
   display: flex;
   flex-direction: row;
 }
+
+.contact img {
+  margin-top: -1px;
+}
+
 .contact-details {
   margin-top: 16px;
 }
