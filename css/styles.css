@@ -22,6 +22,7 @@ body{
   background-image: url("/img/Group\ 85.png");
   background-size: cover;
   color: #fff;
+  border-radius: 0px;
 }
 
 .jumbotron h1{
@@ -40,11 +41,110 @@ body{
   border-radius: 0px !important;
 }
 
-.jumbotron .footer {
+.footer p{
   left: 0;
   bottom: 160px;
+  padding: 10px;
   width: 100%;
   background-color: #3A3A3A;
   color: white;
   text-align: center;
+}
+
+.card{
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card img{
+  width: 316px;
+}
+
+.card .btn{
+  color: #ffffff;
+}
+
+.card p{
+  color: #908888;
+}
+
+.container h3{
+  font-weight: bold;
+}
+
+.container .First{
+  background: url(/img/Group\ 86.png) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  overflow: hidden;
+}
+
+.First .carousel-item{
+  margin: auto;
+}
+
+.First .carousel-item img{
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-right: 0;
+  overflow: none;
+}
+
+.First .carousel-control-prev,
+.First .carousel-control-next {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 120px;
+  color: #FCC139;
+  background: #3A3A3A;
+}
+
+.container .second{
+  background: #C4C4C4;
+  padding: 50px;
+  height: 345px;
+  overflow: hidden;
+}
+
+.second img{
+  width: 835px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.second .carousel-control-prev,
+.second .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+  color: #FCC139;
+  background: #3A3A3A;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.container .box{
+  padding: 20px;
+}
+
+.box .bd{
+  width: 270px;
+  height: 162px;
+  margin-left: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  box-shadow: 4px 10px 10px 4px #F3F3F3;
+}
+
+.box .bd img{
+  margin-top: 20px;
 }
