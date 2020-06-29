@@ -82,8 +82,13 @@ line-height: 31px;
 
 /* about us */
 .about-us {
-  padding: 3% 10% 3%;
+  padding: 3% 18% 3%;
 
+}
+@media only screen and (min-width: 600px) {
+  .about-us {
+   padding: 3% 10% 2%;
+  }
 }
 .about-img {
   padding: 0px 20px 0px;
