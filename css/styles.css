@@ -1,7 +1,202 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Source Sans Pro;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.masthead {
+  height: 75vh;
+  /* min-height: 500px; */
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/Rectangle\ 3.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ml-auto{
+  text-transform: uppercase;
+  padding-right: 32px;
+
+}
+.uh{
+  margin-bottom: .5rem;
+font-weight: 500;
+line-height: 63px;
+font-weight: bold;
+font-style: normal;
+align-items: center;
+font-size: 50px;
+margin-left: 8rem;
+color: #fff;
+}
+.lead{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 158.19%;
+display: flex;
+align-items: center;
+color: #fff;
+margin-left: 8rem;
+}
+.un{
+  color:white;
+}
+.card-deck .card{
+  border: transparent;
+}
+.new-text{
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #FCC139;
+}
+.pic-head{
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 38px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.pic-headw{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #3A3A3A;
+  }
+.icon{
+  color: #202E31;
+  background-color: #FCC139;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}
+.icon2{
+  color: #202E31;
+  background-color: #FCC139;
+  background-size: auto;
+  width: 30px;
+  height: 30px;
+}
+.test{
+  margin-top: 2rem;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.medium-paragraph{
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 204.19%;
+text-align: center;
+color: #FFFFFF;
+}
+.paragraph{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 204.19%;
+text-align: center;
+color: #FCC139;
+}
+.medium{
+  color: white;
+}
+.mx-auto1{
+  margin-left: 12.5rem !important;
+}
+.mx-auto2{
+  padding-right: 23rem !important;
+}
+.my-4{
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('../img/Rectangle\ 57.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+}
+.mi{
+  margin-left: 9rem;
+}
+.blog{
+  background: #F6F6F6;
+  margin-top: -1.5rem;
+  height: 17rem;
+  overflow-x: hidden;
+  margin-right: 10rem;
+  margin-left: 10rem;  
+}
+.partners{
+  margin-top: -1.5rem;
+  height: 17rem;
+  overflow-x: hidden;
+  margin-right: 10rem;
+  margin-left: 10rem;  
+}
+.mb-me{
+  border: transparent;
+  background: transparent;
+}
+.recent{
+  height: 27rem;
+}
+.card-text{
+  border: transparent;
+}
+.card-tex{
+  text-align: right;
+}
+.cariu{
+  position: absolute;
+  margin-left: -7rem;
+  margin-right: 5rem;  
+}
+.mm{
+  margin: 0 auto;
+  margin-left: 1.5rem;
+  padding: 6px;
+}
+footer{
+  background-color: #202E31;
+  }
+  .foot{
+    color: #FCC139;
+    font-size: 20px;
+    margin-top: 3rem;
+  }
+  .rowfoot{
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+  .footer p{
+    color: #fff;
+  }
+  /* // gallery image */
+  .images-gellary ul{
+      padding-left: 0;}
+      .lim{
+        list-style: none;
+        float: left;
+        margin: 0px 0% 3% 3px;
+        width: 22%;
+        position: relative;}
+        li:nth-child(3n) {
+    margin: 0 0 0 1%;
+}
+.footer-copyright{
+  color: #FCC139;
 }
 
