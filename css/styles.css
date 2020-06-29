@@ -357,9 +357,25 @@ svg.rightFA {
 #ourservices {
   /* min-height: 300px; */
 }
+#ourservices h2 {
+  position: relative;
+}
+
+#ourservices h2:after {
+  content: "";
+  position: absolute;
+  width: 12%;
+  display: block;
+  height: 5px;
+  background-color: #fcc139;
+  bottom: -8px;
+}
 
 #ourservices .container {
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #ourservices h4 {
@@ -377,9 +393,13 @@ svg.rightFA {
 .s1,
 .s2,
 .s3 {
-  width: 260px;
-  height: 160px;
+  width: 280px;
+  height: 180px;
   background-color: #f3f3f3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service1,
