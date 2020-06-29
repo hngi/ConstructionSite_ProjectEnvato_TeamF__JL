@@ -99,6 +99,9 @@ color: #FFFFFF;
   background-color: #FCC139;
   border: transparent;
 }
+.top-blog{
+  height: 12rem;
+}
 .test{
   margin-top: 2rem;
 font-style: normal;
@@ -146,7 +149,7 @@ color: #FCC139;
 .blog{
   background: #F6F6F6;
   margin-top: -1.5rem;
-  height: 17rem;
+  height: 20rem;
   overflow-x: hidden;
   margin-right: 10rem;
   margin-left: 10rem;  
@@ -170,6 +173,7 @@ color: #FCC139;
 }
 .card-tex{
   text-align: right;
+  font-size: 1.1rem;
 }
 .cariu{
   position: absolute;
@@ -205,7 +209,7 @@ footer{
         margin: 0px 0% 3% 3px;
         width: 22%;
         position: relative;}
-        li:nth-child(3n) {
+       .footer li:nth-child(3n) {
     margin: 0 0 0 1%;
 }
 .footer-copyright{
