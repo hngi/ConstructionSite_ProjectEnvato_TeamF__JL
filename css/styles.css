@@ -358,7 +358,7 @@ svg.rightFA {
   /* min-height: 300px; */
 }
 
-#ourservices .row {
+#ourservices .container {
   margin: auto;
 }
 
@@ -379,7 +379,7 @@ svg.rightFA {
 .s3 {
   width: 260px;
   height: 160px;
-  background-color: #f6f6f6;
+  background-color: #f3f3f3;
 }
 
 .service1,
@@ -425,6 +425,10 @@ svg.rightFA {
   min-height: 300px;
 }
 
+#testimonials .row {
+  margin: auto;
+}
+
 #testimonials .primary-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -432,6 +436,25 @@ svg.rightFA {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.img-slide {
+  border: 1px solid #d5a43b;
+  padding: 10px;
+  position: relative;
+}
+
+.contact {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.contact-details {
+  margin-top: 16px;
+}
+.contact h5 {
+  font-weight: 600;
+  line-height: 10px;
 }
 
 /* Recent News */
