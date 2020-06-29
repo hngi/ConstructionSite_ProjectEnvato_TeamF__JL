@@ -50,8 +50,9 @@ header {
   color: #FCC139;
   font-size: 20px !important;
 }
- .footer .small {
+.footer .small {
   color: #FCC139;
+}
 .footer p {
   color: #fff;
 }
@@ -59,7 +60,7 @@ header {
   border: none;
   padding: 0.6rem !important;
 }
-.footer .btn {
+.btn {
   color: #202E31;
   background-color: #FCC139;
   font-weight: 600;
