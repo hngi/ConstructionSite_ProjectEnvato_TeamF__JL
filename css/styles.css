@@ -4,4 +4,191 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+.learn-more{
+  background-image: url(https://res.cloudinary.com/philomena/image/upload/v1593398731/HNG-Stage4-iConstuct/Learn-More-Img_amnudd.png); 
+  position: absolute;
+  width: 100%;
+  height: 479.74px;
+  left: 0px;
+  top: 129px;
+  text-align: center;
+}
+/*Remember to make background img transparent*/
+.we-text{
+  position: absolute;
+  width: 459px;
+  height: 65.79px;
+  left: 490px;
+  top: 95.38px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  color: #FCC139;
+}
+.center-text{
+  position: absolute;
+  width: 598px;
+  height: 56.66px;
+  left: 421px;
+  top: 201.86px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.button{
+  position: absolute;
+  width: 160px;
+  height: 54.83px;
+  left: 640px;
+  top: 322.48px;
 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.after-div{
+  position: absolute;
+  width: 100%;
+  height: 50.26px;
+  left: 0px;
+  top: 608.74px;
+  text-align: center;
+  background: #3A3A3A;
+}
+.after-div-text{
+  position: absolute;
+  width: 523px;
+  height: 21.02px;
+  left: 558px;
+  top: 14.28px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E5E5E5;
+
+}
+.what-we-do{
+  position: absolute;
+  width: 1108px;
+  height: 354px;
+  left: 146px;
+  top: 294px;
+}
+.what-we-do-img{
+  position: absolute;
+  width: 316px;
+  height: 198px;
+  left: 166px;
+  top: 444px;
+}
+.what-we-do-text{
+  position: absolute;
+  width: 316px;
+  height: 66px;
+  left: 166px;
+  top: 662px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #908888;
+}
+.read-more-button{
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 263px;
+  top: 758px;
+  background: #FCC139;
+  border: 1px solid #FCC139;
+  box-sizing: border-box;
+}
+/*.recent-projects{
+  position: absolute;
+width: 1440px;
+height: 440px;
+left: 0px;
+top: 1138px;
+}
+*/
+.recent-projects-text{
+  position: absolute;
+  width: 348px;
+  height: 38px;
+  left: 736px;
+  top: 1138px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.line-below-text{
+  position: absolute;
+  width: 125px;
+  height: 4px;
+  left: 817px;
+  top: 1186px;
+  background: #FCC139;
+  border-radius: 20px;
+}
+/*
+.blog-posts{
+  position: absolute;
+width: 1440px;
+height: 422px;
+left: 0px;
+top: 1618px;
+}
+*/
+.blog-posts-text{
+  position: absolute;
+width: 166px;
+height: 52px;
+left: 637px;
+top: 1618px;
+}
+.our-services-text{
+  position: absolute;
+width: 193px;
+height: 47px;
+left: 623px;
+top: 2100px;
+}
+.testimonials-text{
+  position: absolute;
+width: 196px;
+height: 48px;
+left: 622px;
+top: 2425px;
+}
+.recent-news-text{
+  position: absolute;
+width: 205px;
+height: 47px;
+left: 617px;
+top: 3426px;
+
+}
