@@ -10,11 +10,11 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  max-width: 1440px;
   
 }
 
 .wrapper__page {
+    margin: 0 auto;
     max-width: 1440px;
     overflow-x: hidden;
 }
@@ -210,9 +210,16 @@
     margin-right: -15px;
 }
 
-.nav-link-card {
-        position: relative;
-        left: 13px;
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
+.card-na {
+        width: 100%;
+        margin-left: 45%;
+       
 }
 /***********************************END FIRST CARD STYLING***************************************/
 
@@ -755,40 +762,7 @@ border: solid 1px #FCC139;
         font-size: 18px
     }
     
-    .card-1 {
-        left: 20%;
-        width: 90%;
-       
-    }
-    .img-card {
-        position: relative;
-        width: 350px;
-    }
 
-    
-    .card-body-1 {
-        align-items: center;
-    
-        width: 300px;
-        left: 200px
-    }
-
-    
-    .card-text {
-        width: 320px;
-        text-align: center;
-    }
-    
-    .card-body-1 .card-title {
-        position: relative;
-        left: 35%;
-    }
-    
-    .nav-link-card {
-        position: relative;
-        left: 150px;
-        
-    }
     
     .foot-img {
         display: none
@@ -846,11 +820,13 @@ border: solid 1px #FCC139;
         left: 15%
     }
     
+/*
     .card-1 {
         position: relative;
         left: 50px;
      
     }
+*/
     
 }
 /***********************************END MEDIA QUERIES 625PX-MAX-WIDTH***************************************/
@@ -909,27 +885,13 @@ border: solid 1px #FCC139;
     .msg-h1 {
         text-align: center;
     }
-    
-/*
-    .btn-outline-secondary {
-        left: 20px
-    }
-*/
+
     
     .carousel-caption {
         padding-bottom: 0px;
     }
     
-    .card-text {
-        width: 320px;
-    }
-    .card-1 {
-        margin: auto 20px
-        position: relative;
-        left: 23px;
-     
-    }
-    
+
     .foot-col p {
         text-align: left;
     }
@@ -988,58 +950,20 @@ border: solid 1px #FCC139;
         overflow-x: hidden;
     }
     
-    .card-1 {
-        position: relative;
-        left: 25px;
-     
-    }
-    
-    .img-card {
-        width:  100%;
-    }
-    
-    .card-text {
-        width: 80%;
-    }
-    
+
  .p-p {
         font-size: 12px;
     }
        
 }
 
-/***********************************MEDIA QUERIES 385PX-MAX-WIDTH***************************************/
+/***********************************MEDIA QUERIES 392PX-MAX-WIDTH***************************************/
 
-@media screen and (max-width: 385px) { 
+@media screen and (max-width: 392px) { 
     
     .message {
         left: 40px;
     }
-    .card-1 {
-        position: relative;
-        left: 25px;
-     
-    }
-    
-    .img-card {
-        width:  100%;
-    }
-    
-    .card-text {
-        font-size: 0.8em;
-        width: 80%;
-    }
-    
-    .card-body-1 .card-title {
-        position: relative;
-        left: 20%;
-    }
-    
-    .nav-link-card {
-        position: relative;
-        left: 100px;
-        
-    }
-    
+ 
     
 }
