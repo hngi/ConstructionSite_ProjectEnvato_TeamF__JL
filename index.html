@@ -16,36 +16,36 @@
 
 <body class="wrapper__page">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">
+                <img src="./images/home/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">
-                    <img src="./images/home/logo.png" alt="">
-                </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">  
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active mr-lg-3">
+                        <a class="nav-link text-white" href="#">Home </a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link text-white" href="#">Projects<span class="sr-only">(current)</span></a>
+                    <li class="nav-item mr-lg-3">
+                        <a class="nav-link text-white" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link text-white" href="#">Services<span class="sr-only">(current)</span></a>
+                    <li class="nav-item mr-lg-3">
+                        <a class="nav-link text-white" href="#">Services</a>
                     </li>
-                    <li class="nav-item mr-3">
+                    <li class="nav-item mr-lg-3">
                     <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Pages <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="#">Pages </a>
                     </li>
-                    <li class="nav-item mr-3">
+                    <li class="nav-item mr-lg-3">
                     <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Blog <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="#">Blog </a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Contact Us <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us </a>
                     </li>
 
                 </ul>
@@ -59,12 +59,100 @@
         <div class="homepage-content">
             <p>creative builders</p>
             <h1>we are creative and innovative</h1>
-            <button class="btn btn-lg px-5 py-1 btn-warning text-white">Hire</button>
+            <button class="btn btn-lg text-white">Hire</button>
         </div>
     </div>
 
+    <!-- About Us section -->
+    <div id="about-us" class="container my-5">
+        <h3 class="text-center my-5 font-weight-bold">ABOUT US</h3>
+        <div class="about-us-card row">
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 20rem;">
+                    <img src="./images/about_us/about2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project planning</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elitorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 20rem;">
+                    <img src="./images/about_us/about3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project planning</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elitorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 20rem;">
+                    <img src="./images/about_us/about1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project planning</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elitorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-5">
+            <button class="btn btn-outline ">READ MORE</button>
+        </div>
+        
+    </div>
 
-
+    <!-- Featured Projects -->
+    <div class="projects " id="projects">
+        <div class="container">
+            <h3 class="text-center my-5 font-weight-bold">FEATURED PROJECTS</h3>
+            <div class="projects-btn mymy-md-5">
+                <div class="btn btn-md">
+                    ALL PROJECTS
+                </div>
+                <div class="btn btn-md">
+                    RENOVATIONS
+                </div>
+                <div class="btn btn-md">
+                    BUILDINGS
+                </div>
+                <div class="btn btn-md">
+                    ROADS
+                </div>
+                <div class="btn btn-md">
+                    BRIDGES
+                </div>
+            </div>
+            <div class="projects-images">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <img class="projects-img" src="./images/projects/projects6.png" alt="" srcset="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <img class="projects-img" src="./images/projects/projects5.png" alt="" srcset="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <img class="projects-img" src="./images/projects/projects3.png" alt="" srcset="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <img class="projects-img" src="./images/projects/projects2.png" alt="" srcset="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <img class="projects-img" src="./images/projects/projects4.png" alt="" srcset="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <img class="projects-img" src="./images/projects/projects1.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="text-center my-5">
+                    <button class="btn btn-outline ">VIEW ALL</button>
+                </div>
+            </div>
+        </div>
+       
+    </div>
 
     <!--Footer -->
     <footer class="footer">
