@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <!-- Font Awesome icons (free version)-->
     <script src="./assets/font awsome/js/all.js"></script>
     <!-- Google fonts -->
@@ -16,39 +16,45 @@
 </head>
 
 <body >
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container-fluid">
-          <a class="navbar-brand mr-3" href="#">
-                <img class="mi img-fluid"src="./img/iCONSTRUCT.png" alt="">
-              </a>
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home
-                      <span class="sr-only">(current)</span>
-                    </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              
-            </ul>
-            <i class="fa fa-search"></i>
-          </div>
-      
-        </div>
-      </nav>
-    <!-- Navbar -->
+<!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4 navbar navbar-expand-lg navbar-dark bg-dark static-top">
+
+  <!-- Navbar brand -->
+  <a class="" href="#">
+    <img class="mi "src="./img/iCONSTRUCT.png" alt=""></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <i class="fa fa-search"></i>
+    </ul>
+  
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!-- Navbar -->
 <!-- Hero -->
 <header class=" masthead">
   <div class="container h-100">
@@ -63,7 +69,7 @@
   </div>
 
 </header>
-<div class=" text-nowrap bd-highlight text-center un" style="background: #D5A43B;">
+<div class=" text-wrap bd-highlight text-center un" style="background: #D5A43B;">
   WE ARE EXPERTS, WE ARE AWESOME, WE ARE GOOD AT WHAT WE DO
 </div>
 <div class="clearfix"></div>
@@ -71,7 +77,7 @@
 
 <!-- home card -->
 <div class="card-deck one-auto">
-  <div class="card">
+  <div class="card col-cus">
     <img src="./img/Rectangle 9.png" class="card-img-top img-fluid " alt="...">
     <div class="card-body">
       <h5 class="card-title">BEST HOUSE</h5>
@@ -79,7 +85,7 @@
       <p class="card-text"><small class="new-text">Read more</small></p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-cus">
     <img src="./img/Rectangle 10.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">MODERN DESIGN</h5>
@@ -87,7 +93,7 @@
       <p class="card-text"><small class="new-text">Read more</small></p>
     </div>
   </div>
-  <div class="card">
+  <div class="card clearfix d-none d-md-block">
     <img src="./img/Rectangle 11.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">TEAM WORK</h5>
@@ -106,7 +112,7 @@
     </div>
 
     <!--Controls-->
-    <div class="controls-top " style="margin-left: 65.5rem;margin-top: -1rem;margin-bottom: 1rem;">
+    <div class="controls-top con-mob">
       <a class="btn-floating" href="#multi-item-example" data-slide="prev"><span class="iconify icon" data-icon="fa-solid:caret-square-left" data-inline="false"></span>
       </a>
       <a class="btn-floating" href="#multi-item-example" data-slide="next"><span class="iconify icon2" data-icon="fa-solid:caret-square-right" data-inline="false"></span>
@@ -117,14 +123,14 @@
       <div class="carousel-item active mx-auto1 mx-auto2">
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-cu cu">
             <div class="card mb-2">
               <img class="card-img-top" src="./img/Rectangle 13.png"
                 alt="Card image cap">
             </div>
           </div>
 
-          <div class="col-md-4 clearfix  d-md-block">
+          <div class="col-md-4 clearfix col-cu">
             <div class="card mb-2">
               <img class="card-img-top" src="./img/Rectangle 14.png"
                 alt="Card image cap">
@@ -149,12 +155,12 @@
 <div class="blog">
 
   <div id="multi-item-example" class="carousel cariu slide carousel-multi-item" data-ride="carousel">
-    <div class="pic-headw" style="padding-top: 2rem; margin-left: 10rem;">
+    <div class="pic-headw blog-mob">
       <u>RECENT B</u>LOGS
     </div>
 
     <!--Controls-->
-    <div class="controls-top" style="margin-left: 57.4rem;margin-top: -1rem;margin-bottom: 1rem;">
+    <div class="controls-top blog-control">
       <a class="btn-floating" href="#multi-item-example" data-slide="prev"><span class="iconify icon" data-icon="fa-solid:caret-square-left" data-inline="false"></span>
       </a>
       <a class="btn-floating" href="#multi-item-example" data-slide="next"><span class="iconify icon2" data-icon="fa-solid:caret-square-right" data-inline="false"></span>
@@ -166,7 +172,7 @@
       <div class="carousel-item active mx-auto1 mx-auto2">
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-cu2">
             <div class="card mb-2">
               <img class="card-img-top top-blog" src="./img/Rectangle 13.png"
                 alt="Card image cap">
@@ -180,10 +186,10 @@
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
+          <div class="col-md-4 clearfix col-cu2 d-md-block">
             <div class="card mb-2">
               <div class="card-img-top top-blog">
-                <h4 class="card-title"  style="font-size: 1.3rem;font-weight: bold;text-align: Center;margin-top: 1rem;margin-left: 3rem;">CONSTRUCTION</h4>
+                <h4 class="card-title blog-text">CONSTRUCTION</h4>
                 <p class="card-tex">We have a lot to say but we believe that actions speak a lot better than words.Our customers....</p>
               </div>
             </div>
@@ -197,32 +203,32 @@
 <!-- !Blog Post -->
 
 <!-- Services -->
-<div class="">
+<div class="service">
   <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-    <div class="pic-headw" style="padding-top: 2rem; margin-left: 10rem;">
+    <div class="pic-headw blog-mob">
       <u>OUR SERV</u>ICES
     </div>
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active mx-auto1 mx-auto2">
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-cu2">
             <div class="card mb-2">
-              <img class="card-img-top" src="./img/Rectangle 13.png"
+              <img class="card-img-top" src="./img/truck.png"
                 alt="Card image cap">
             </div>
           </div>
 
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="./img/Rectangle 14.png"
+              <img class="card-img-top" src="./img/bulldozer.png"
                 alt="Card image cap">
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
+          <div class="col-md-4 clearfix col-cu2 d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="./img/Rectangle 14.png"
+              <img class="card-img-top" src="./img/excavator.png"
                 alt="Card image cap">
             </div>
           </div>
@@ -254,24 +260,24 @@
 <!-- Recent News -->
 <div class="blog recent">
   <div id="multi-item-example" class="carousel cariu slide carousel-multi-item" data-ride="carousel">
-    <div class="pic-headw" style="padding-top: 2rem; margin-left: 10rem;">
+    <div class="pic-headw blog-mob">
       <u>RECENT N</u>EWS
     </div>
 
     <!--Controls-->
-    <div class="controls-top text-righ " style="margin-left: 57.5rem;margin-top: -1rem;margin-bottom: 1rem;">
+    <div class="controls-top recent-control " >
       <a class="btn-floating" href="#multi-item-example" data-slide="prev"><span class="iconify icon" data-icon="fa-solid:caret-square-left" data-inline="false"></span>
       </a>
       <a class="btn-floating" href="#multi-item-example" data-slide="next"><span class="iconify icon2" data-icon="fa-solid:caret-square-right" data-inline="false"></span></a>
     </div>
     <!--/.Controls-->
 
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner recent-auto" role="listbox">
 
       <div class="carousel-item active mx-auto1 mx-auto2">
 
         <div class="row">
-          <div class="col-md-4 clearfix d-none d-md-block">
+          <div class="col-md-4 clearfix  col-cu2 d-md-block">
             <div class="card mb-2 mb-me">
               <img class="card-img-top" src="./img/Rectangle 24(1).png"
                 alt="Card image cap">
@@ -281,7 +287,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
+          <div class="col-md-4 clearfix col-cu2 d-md-block">
             <div class="card mb-2 mb-me">
               <img class="card-img-top" src="./img/Rectangle 25(1).png"
                 alt="Card image cap">
@@ -309,10 +315,10 @@
 <!-- !Recent News -->
 
 <!-- Partners -->
-<div class="partners">
+<div class="partners ">
 
   <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-    <div class="pic-headw" style="padding-top: 4rem; margin-left: 3rem;">
+    <div class="pic-headw " style="padding-top: 4rem; margin-left: 3rem;">
       <u>OUR PART</u>NERS
     </div>
 
