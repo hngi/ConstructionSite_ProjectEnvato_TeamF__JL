@@ -21,8 +21,9 @@ body {
 }
 .nav-item a:hover {
   color: #FCC139;
+  text-decoration: none;
 }
-.item a.active {
+.nav-item a.active {
   color: #FCC139;
 }
 .footer {
