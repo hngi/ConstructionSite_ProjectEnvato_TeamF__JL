@@ -1,32 +1,86 @@
+/* Global Styles */
+:root {
+	--primary-color: #FFA700;
+	--dark-color: #141414;
+	--light-color: #f4f4f4;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+h1,
+h2,
+h3,
+h4 {
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 100%;
+}
+
 /*Styles for home section */
 .home-section {
-   background-image: url('../images/home/home.png');
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
+    background-image: url("/images/home/home.png");
+    width: 100%;
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 200px;
 }
 
-.home-section .navbar {
-  background-color: transparent;
-  color: #ffffff;
-  z-index: 2;
+ .homepage-content {
+  position: relative;
+	z-index: 2;
+	width: 65%;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
 }
-.navbar ul li a {
-  font-size: 1.2em;
-  font-weight: 600;
-};
 
-.navbar ul li a:hover {
-  color: #FFA700;
+.homepage-content h1 {
+	font-weight: 500;
+	font-size: 2.5rem;
+	line-height: 1.1;
+	margin-bottom: 2rem;
+}
+
+.homepage-content p {
+	color: #fff;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.25;
+	margin: 0 0 2rem;
+}
+
+/* Customize Bootstrap Buttons */
+.btn {
+  border-radius: 0;
+}
+.btn-lg {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
 }
