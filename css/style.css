@@ -147,7 +147,8 @@ hr {
 
 .btn-primary:hover {
   background: #fff;
-  border: 1px solid #FCC139;
+  outline: 1px solid;
+  outline-color: #FCC139;
   color: black;
 }
 
@@ -283,7 +284,7 @@ hr {
 }
 
 .swipe-color {
-  color: white;
+  color: #FCC139;
   width: 1px;
 }
 
