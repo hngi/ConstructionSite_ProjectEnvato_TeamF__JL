@@ -173,6 +173,11 @@ color: #FCC139;
 .mi{
   margin-left: 9rem;
 }
+.carousel-item.active {
+  display: block;
+  margin-left: 6rem;
+  padding-right: 11rem;
+}
 .blog{
   background: #F6F6F6;
   margin-top: -1.5rem;
@@ -227,6 +232,11 @@ color: #FCC139;
 .blog-mob{
   padding-top: 2rem; 
   margin-left: 10rem;
+}
+.ser{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 }
 .card-tex{
   text-align: right;
@@ -284,7 +294,7 @@ footer{
 
 
 /* responsive */
-@media all and (max-width:767px){
+@media all and (max-width:800px){
   .one-auto{
     padding:1rem;
     margin-right: 0rem;
@@ -309,6 +319,10 @@ footer{
   .col-md-4{
     padding-right: 0;
   }
+  .carousel-item.active {
+    margin-left: 0rem;
+    padding-right: 0rem;
+}
   .cu{
     margin-left:.8rem ;
   }
@@ -498,6 +512,10 @@ margin-top: 2rem;
   margin-top: 0rem;
   margin-left: .5rem;
 }
+.ser{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
 @media(max-width:375px){
   .blog-mob{
     padding-top: 2rem;
@@ -510,6 +528,9 @@ margin-top: 2rem;
   }
   .recent-control{
     margin-left: 18.6rem;
+  }
+  .p-control{
+    margin-left: 19.7rem;
   }
 }
 @media(max-width:360px){
@@ -524,6 +545,9 @@ margin-top: 2rem;
   }
   .un{
     font-size: 0.647rem;
+  }
+  .p-control{
+    margin-left: 18.8rem;
   }
 }
 }
