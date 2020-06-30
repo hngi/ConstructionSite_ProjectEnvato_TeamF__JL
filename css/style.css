@@ -100,6 +100,10 @@ hr {
     font-size: 30px;
   }
 
+  #mobile-w {
+    width: 100%;
+  }
+
   .landing-text p {
     font-size: 15px;
     padding: 0 3px 0 3px;
@@ -117,7 +121,7 @@ hr {
 
 
 /* summary */
-.card {
+#center {
   text-align: center;
   margin-bottom: 40px;
   overflow: hidden;
@@ -125,6 +129,10 @@ hr {
 
 .card-body {
   padding: 0.5rem;
+}
+
+#card-body2 {
+  padding: 0;
 }
 
 .btn-primary {
@@ -163,7 +171,11 @@ hr {
   color: #FCC139;
   padding: 5px 0;
   font-weight: 700;
+}
 
+.card h5 {
+  color: #FCC139;
+  font-weight: bold;
 }
 
 /* Summary Ends */
@@ -175,6 +187,7 @@ hr {
 .project h1 {
   font-size: 1.5rem;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 .underline {
   border: 2px solid #FCC139;
@@ -188,7 +201,273 @@ hr {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 100%;
-  height: 40vh;
+  padding: 30px 0px;
+}
+
+.carousel {
+	margin: 30px auto;
+	padding: 0 50px;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+	height: 44px;
+  width: 40px;
+	background: #FCC139;;	
+  margin: auto 0;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .project .background__image {
+    padding: 20px 100px;
+  }
+
+  .carousel {
+    margin: 10px auto; 
+    padding: 0 70px;
+  }
+
+  .carousel .carousel-control-prev, .carousel .carousel-control-next {
+    height: 34px;
+    width: 30px;
+   
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project .background__image {
+    padding: 10px 10px;
+  }
+
+  .carousel {
+    margin: 15px auto; 
+    padding: 0;
+  }
+
+  #mobile-w {
+    width: 100%;
+  }
+
+  .carousel .carousel-control-prev, .carousel .carousel-control-next {
+    height: 34px;
+    width: 30px;
+   
+  }
 }
 /* project End */
+
+
+/*Blog Post and swiper styling */
+.blog__post {
+  margin-bottom: 30px;
+}
+.blog__post h1  {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+
+#blog__bg {
+  background: #C4C4C4;
+}
+
+/*Swiper styling */
+.swiper-container {
+  width: 80%;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.swipe-color {
+  color: white;
+  width: 1px;
+}
+
+/* .swiper-slide {
+  display: block;
+  justify-content: center;
+  align-items: center;
+} 
+
+/* services */
+.services h1 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.bg-card {
+  background: #f3f3f3;
+  border:none;
+}
+
+.services .container h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* testimonial */
+.testimonial{
+  margin-top: 30px;
+}
+.testimonial-bg {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5) ),url(/img/Rectangle\ 56.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 30px 0px;
+}
+
+.bg_dark {
+  background: #202E31;
+  opacity: 0.9;
+}
+.testimonial h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#post {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#name {
+  color: #FCC139;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+
+/* Carousel STyling */
+.carousel .carousel-indicators {
+	bottom: -45px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: white;
+	border: white;
+}
+.carousel-indicators li.active {		
+	background: #FCC139;		
+}
+
+@media screen and (max-width:768px) {
+  .profile-text {
+    font-size: 14px;
+  }
+
+  .carousel {
+    margin: 30px auto;
+    padding: 0;
+  }
+
+  #post {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .profile-text {
+    font-size: 11px;
+  }
+}
+
+/* recent news */
+.recent-news {
+  margin-top: 30px;
+}
+.recent-news h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.recent-news .news-bg {
+  background-color: #C4C4C4;
+  padding: 30px 0;
+}
+
+.btn-white {
+  background-color: white;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+/* parners */
+.partners {
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
+}
+
+.partners h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  cursor: pointer;
+}
+
+/* footer */
+.bg-darken {
+  background-color: #202E31;
+}
+
+.color-text {
+  color:#FCC139;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mybtn {
+  background-color: #FCC139;
+  border: 0;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 786px) {
+  .responsive {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .col2_1 {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
