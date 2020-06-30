@@ -11,34 +11,19 @@ body {
 .center {
   margin: auto;
 }
-.wrapper {
-  /* max-width: 1440px; */
-}
 
 /*------------------------header and footer-----------------------------------*/
 .primary-header {
   background: #fff;
 }
-.topnav {
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 14px;
-}
-.topnav a:hover {
-  color: #FCC139;
-}
-.topnav a.active {
-  color: #FCC139;
-}
-.topnav .icon {
-  display: none;
+.nav-item a {
   color: #000;
+}
+.nav-item a:hover {
+  color: #FCC139;
+}
+.item a.active {
+  color: #FCC139;
 }
 .footer {
   background-color: #202E31;
