@@ -11,9 +11,10 @@
 7. Push your code to the repository.
 8. Make a Pull Request to the branch of the version you are working on.
 
-### Variation
-Slack Username: @Akpjunior
-Email: akpjunio4real@gmail.com
- Netilify-link:
- Design: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
+### Variation(first)
+1. Slack Username: @Akpjunior
+2. Email: akpjunio4real@gmail.com
+3. Netilify-link: https://iconstruction.netlify.app/
+4. github link: https://github.com/Akpjunior94/ConstructionSite_ProjectEnvato_TeamF__JL
+4. Design: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
  
