@@ -13,18 +13,23 @@ body {
 }
 
 /*------------------------header and footer-----------------------------------*/
-.primary-header {
-  background: #fff;
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 2.25rem !important;
 }
-.nav-item a {
+.nav-link {
   color: #000;
 }
-.nav-item a:hover {
+.nav-link:hover {
   color: #FCC139;
   text-decoration: none;
 }
-.nav-item a.active {
+.nav-link .active {
   color: #FCC139;
+}
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
 }
 .footer {
   background-color: #202E31;
@@ -51,14 +56,8 @@ body {
 
 
 @media screen and (max-width: 600px) {
-  .primary-header h1 {
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
+  .navbar-brand {
+    font-size: 1.25rem !important;
   }
 }
 @media screen and (max-width: 600px) {
