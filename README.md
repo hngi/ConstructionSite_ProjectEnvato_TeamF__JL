@@ -14,7 +14,7 @@
 ### Variation(first)
 1. Slack Username: @Akpjunior
 2. Email: akpjunio4real@gmail.com
-3. Netilify-link: https://iconstruction.netlify.app/
+3. Netilify-link: https://app.netlify.com/sites/i-construct/settings/domain
 4. github link: https://github.com/Akpjunior94/ConstructionSite_ProjectEnvato_TeamF__JL
 4. Design: https://www.figma.com/file/JYpkdxK9X2KI0YDXMVyW1t/construction-template
  
