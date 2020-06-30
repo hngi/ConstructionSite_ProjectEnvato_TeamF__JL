@@ -15,6 +15,20 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.masthead hr{
+border: 2px solid #FCC139;
+width: 0%;
+padding-right: 9rem;
+margin-top: -10px;
+margin-bottom: 18px;
+margin-left: 8rem;
+}
+.my-4 hr {
+ border: 2px solid #FCC139;
+ width: 10%;
+ margin: 3rem -13.88rem 0;
+ border-radius: 2px;
+}
 .fa-1x {
   font-size: 1.5rem;
   color: #FCC139;
@@ -186,6 +200,12 @@ color: #FCC139;
   margin-right: 10rem;
   margin-left: 10rem;  
 }
+.blog hr {
+  border: 2px solid #FCC139;
+  width: 18.6%;
+  margin: 3rem -13.88rem 0;
+  border-radius: 2px;
+}
 .service{
   margin-top: -1.5rem;
   height: 20rem;
@@ -193,13 +213,24 @@ color: #FCC139;
   margin-right: 10rem;
   margin-left: 10rem;
 }
-
+.service hr{
+  border: 2px solid #FCC139;
+  width: 17.6%;
+  margin: 3rem -13.88rem 0;
+  border-radius: 2px;
+}
 .partners{
   margin-top: -1.5rem;
   height: 17rem;
   overflow-x: hidden;
   margin-right: 10rem;
   margin-left: 10rem;  
+}
+.partners hr{
+  border: 2px solid #FCC139;
+  width: 16.4%;
+  margin: 3rem -13.88rem 0;
+  border-radius: 2px;
 }
 .pi{
   width: 190px;
@@ -220,6 +251,12 @@ color: #FCC139;
 }
 .recent{
   height: 27rem;
+}
+.recent hr{
+  border: 2px solid #FCC139;
+  width: 16.6%;
+  margin: 3rem -13.88rem 0;
+  border-radius: 2px;
 }
 .recent-control{
   margin-left: 57.5rem;
@@ -276,7 +313,6 @@ footer{
   .footer p{
     color: #fff;
   }
-  /* // gallery image */
   .images-gellary ul{
       padding-left: 0;}
       .lim{
@@ -340,6 +376,7 @@ footer{
   margin-right: 1.4rem;
 margin-left: 1.4rem;
 height: 16.5rem; 
+margin-bottom: 1rem;
 }
 .service{
   margin-right: 1.4rem;
@@ -351,6 +388,34 @@ margin-top: -4.5rem;
 height: 14rem;
 margin-right: 0rem;
 margin-left: 0rem;
+}
+.masthead hr{
+    border: 2px solid #FCC139;
+    width: 0%;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    margin-top: -10px;
+    margin-bottom: 18px;
+}
+.my-4 hr {
+  width: 28%;
+  margin: 2rem -13.88rem 0;
+}
+.blog hr {
+  width: 50.6%;
+  margin: 2em -13.88rem 0;
+}
+.service hr {
+  width: 43.6%;
+  margin: 2rem -13.88rem .3rem;
+}
+.recent hr {
+    width: 44.6%;
+    margin: 2rem -13.88rem 0;
+  }
+.partners hr {
+  width: 39.4%;
+  margin: 2rem -13.88rem 0;
 }
 .mm{
   padding: 11px;
