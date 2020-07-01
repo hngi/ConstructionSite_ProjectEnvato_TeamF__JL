@@ -113,7 +113,7 @@ body {
 }
 
 .btn-home:hover {
-  background-color: transparent;
+  background-color: rgba(255, 167, 0, 0.5);
   border: 2px solid var(--primary-color);
   color: white;
 }
@@ -400,7 +400,7 @@ body {
 }
 
 .btn-contact:hover {
-  background-color: transparent;
+  background-color: rgba(255, 167, 0, 0.5);
   color: white;
 }
 

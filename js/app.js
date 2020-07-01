@@ -51,10 +51,14 @@
         $('.navbar-nav .nav-link').removeClass('active');
         $(this).addClass('active');
     })
+    $('.navbar-item .nav-link').click(function(){
+        $('.navbar-item .nav-link').removeClass('active');
+        $(this).addClass('active');
+    })
 })(jQuery); // End of use strict
 
 
-//
+// trigger the id bookmarks
 $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
