@@ -247,7 +247,7 @@ body {
 .service:hover {
   background-color: #f4f4f4;
 }
-/* Our Services*/
+
 
 /* Our Company */
 .company__text {
@@ -273,14 +273,6 @@ body {
   font-size: 16px;
 }
 
-@media screen and (min-width: 1200px) {
-  .company__text.col-lg-6 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-/* Our Company */
 
 /* Blog */
 .blog {
@@ -321,7 +313,6 @@ body {
   font-weight: bold;
 }
 
-/* Blog Posts*/
 
 /* Banner */
 .banner {
@@ -364,7 +355,6 @@ body {
     font-size: 1rem;
   }
 }
-/* Banner */
 
 /* Contact */
 .contact__subtitle {
@@ -383,7 +373,7 @@ body {
 .contact__text {
   min-width: 230.38px;
 }
-/* Contact */
+
 
 /* Footer */
 .footer {
@@ -434,8 +424,17 @@ body {
     margin-left: 1rem;
   }
 }
+
+/* Home h1 text */
 @media screen and (min-width: 768px) {
   .home-heading h1 {
     font-size: 3rem;
+  }
+}
+/*our company */
+@media screen and (min-width: 1200px) {
+  .company__text.col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
