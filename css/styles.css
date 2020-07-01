@@ -4,4 +4,342 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body {
+  font-family: Source Sans Pro, sans-serif;
+  font-style: normal;
+}
+.center {
+  margin: auto;
+}
 
+/*------------------------header and footer-----------------------------------*/
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 2.25rem !important;
+}
+.navbar-dark .navbar-toggler {
+  background-color: #908888;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FCC139 !important;
+  text-decoration: none;
+}
+.navbar-dark .navbar-nav .active {
+  color: #FCC139 !important;
+}
+.navbar-nav {
+  float: right;
+}
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+.footer {
+  background-color: #202E31;
+}
+.footer h5, .footer .small {
+  color: #FCC139;
+  font-size: 20px !important;
+}
+.footer .small {
+  color: #FCC139;
+}
+.footer p {
+  color: #fff;
+}
+.footer input {
+  border: none;
+  padding: 0.6rem !important;
+}
+.btn {
+  color: #202E31;
+  background-color: #FCC139;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.25rem !important;
+  }
+}
+
+
+/*------------------------ MAIN -----------------------------------*/
+.home-page {
+  background-image: url("../img/home-banner.svg");
+  background-size: cover;
+  color: #fff;
+}
+.home-page-div {
+  background: rgba(58, 58, 58, 0.7);
+  height: 500px;
+}
+.home-page-upper h1 {
+  color: #FCC139;
+}
+.home-page-upper hr {
+  border-color: #fff;
+  width: 10%;
+  border-width: 3px;
+  border-radius: 50px;
+}
+.home-page-upper p {
+  font-size: 24px;
+  line-height: 30px;
+}
+.home-page-upper a, .button {
+  background-color: #fff;
+  text-decoration: none;
+}
+.button {
+  display: inline-block;
+}
+.home-page a:hover, .news-container a:hover {
+  background-color: #FCC139;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.home-page-lower {
+  background-color: #3A3A3A;
+  font-weight: 600;
+}
+.inner-div1 {
+  background-image: url("../img/best.svg");
+  background-size: cover;
+  height: 300px;
+}
+.inner-div2 {
+  background-image: url("../img/modern.svg");
+  background-size: cover;
+  height: 300px;
+}
+.inner-div3 {
+  background-image: url("../img/team.svg");
+  background-size: cover;
+  height: 300px;
+}
+.abt {
+  padding-top: 40%;
+}
+.abt h3 {
+  background-color: #3A3A3A;
+  color: #FCC139;
+}
+.services-div p {
+  line-height: 22px;
+  color: #908888;
+}
+.project-container{
+  background-image: url("../img/city.svg");
+  background-size: cover;
+}
+.inner-project {
+  background-color: rgba(32, 46, 49, 0.8);
+}
+.inner-project .carousel-inner, .blog-container .carousel-inner {
+  width: fit-content;
+  margin: auto;
+}
+.house, .circle {
+  max-width: fit-content;
+}
+.inner-project .arrow-i {
+  margin-top: 145%;
+}
+.hr {
+  width: 9%;
+  border-width: 4px;
+  border-radius: 50px;
+  border-color: #FCC139 !important;
+}
+.blog-container {
+  background-color: #C4C4C4;
+}
+.construction {
+  max-width: 50%;
+  height: 250px;
+  background-color: white;
+}
+.grey-bg {
+  background-color: #3A3A3A;
+  color: #FCC139;
+}
+.construction p {
+  font-size: 25px;
+  line-height: 40px;
+  color: #3A3A3A;
+}
+.arrow {
+  /* margin-top: 85px; */
+  background-color: #3A3A3A;
+}
+.service-inner-container div {
+  border: 1px solid #000;
+  box-shadow: 0px 0px 10px 15px #F3F3F3;
+}
+.service-inner-container img {
+  width: 40%;
+}
+.exc {
+  width: 55% !important;
+}
+.service-inner-container hr {
+  border-color: #000;
+  border-width: 1px;
+}
+.testimonial-container {
+  background-image: url("../img/city2.svg");
+}
+.testimonial-inner-container {
+  background-color: rgba(32, 46, 49, 0.8);
+  color: #fff;
+}
+.testimonial-inner-container .row {
+  background-color:  #202E31;
+}
+.row2 {
+  background-color: yellow;
+}
+.ceo {
+  padding-left: 15%;
+  font-weight: 600;
+}
+.quote {
+  font-size: 20px;
+  line-height: 35px;
+  padding-right: 15%;
+}
+.news-container {
+  background-color: #C4C4C4;
+}
+.news-container p {
+  font-size: 25px;
+}
+.right{
+  margin-top: 200% !important;
+  margin-left: 40%;
+}
+.left {
+  margin-top: 195% !important;
+}
+/*........................MEDIA QUERIES ...............*/
+
+@media only screen and (max-width: 1025px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .abt {
+    padding-top: 55%;
+  }
+  .abt h3 {
+    font-size: 1.2rem;
+  }
+  .inner-project img, .blog img {
+    max-width: 100%;
+  }
+  .circle {
+    margin-top: 20px !important;
+  }
+  .inner-project .arrow-i {
+    margin-top: 165%;
+}
+.construction p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.arrow {
+  padding: 5px !important;
+}
+h4 {
+  font-size: 1rem;
+}
+.service-inner-container {
+  margin-bottom: 3rem !important;
+}
+.service-inner-container div {
+  padding: 0.5rem!important;
+}
+.ceo {
+  padding-left: 0;
+}
+.quote {
+  padding-right: 0;
+  padding-top: 0.5rem!important;
+}
+.left {
+  margin-top: 290% !important;
+}
+.right {
+  margin-left: 0 !important;
+}
+.news-container p {
+  font-size: 16px;
+}
+.partners img {
+  max-width: 80%;
+}
+.footer h5 {
+    font-size: 1rem;
+}
+input {
+  max-width: 60% !important;
+}
+}
+
+@media only screen and (max-width: 426px) {
+  .home-page-upper a {
+    margin-bottom: 0 !important;
+  }
+  .input {
+    padding: 14px 0 0 16px;
+  }
+  .abt {
+    padding-top: 42%;
+  }
+  .blog-container .arrow {
+    display: none;
+  }
+  .blog-container img {
+    margin: auto !important;
+    display: block;
+  }
+  .construction {
+    max-width: 90%;
+    margin: 40px auto !important;
+  }
+  .construction p {
+    line-height: 30px;
+  }
+  .carousel-indicators {
+    bottom: -50px;
+  }
+  .news-container .row div {
+    margin-top: 20px;
+  }
+  .partners .row {
+    padding: 0 !important;
+  }
+  .service .container .row {
+    padding: 0 !important;
+  }
+  .service-inner-container {
+    margin: 2rem !important;
+  }
+  .quote {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer h5 {
+    padding: 40px 0 !important;
+    margin: 0 !important;
+  }
+  .footer .btn {
+    margin: 20px;
+  }
+}
