@@ -16,7 +16,7 @@
 
 body {
   font-family: Muli, sans-serif;
-  
+  overflow: auto;
 }
 
 /* Navbar */
@@ -126,7 +126,7 @@ body {
     margin-top: 2rem;
   }
 }
-
+/*Mastehead*/
 
 /* About Us*/
 .about {
@@ -234,7 +234,8 @@ body {
   background-color: var(--yellow);
 }
 
-
+ 
+/* what people say */
 
 /* Our Services*/
 .services {
@@ -253,7 +254,7 @@ body {
 .service:hover {
   background-color: #f4f4f4;
 }
-
+/* Our Services*/
 
 /* Our Company */
 .company__text {
@@ -286,7 +287,7 @@ body {
   }
 }
 
-
+/* Our Company */
 
 /* Blog */
 .blog {
@@ -327,7 +328,7 @@ body {
   font-weight: bold;
 }
 
-
+/* Blog Posts*/
 
 /* Banner */
 .banner {
@@ -370,7 +371,7 @@ body {
     font-size: 1rem;
   }
 }
-
+/* Banner */
 
 /* Contact */
 .contact__subtitle {
@@ -389,7 +390,7 @@ body {
 .contact__text {
   min-width: 230.38px;
 }
-
+/* Contact */
 
 /* Footer */
 .footer {
@@ -420,6 +421,69 @@ body {
   color: var(--yellow);
 }
 
+/* Footer */
+
+/* Back to top button*/
+
+.back-to-top {
+  position: fixed;
+  color: var(--yellow);
+  bottom: 25px;
+  right: 25px;
+  font-size: 3.5rem;
+  z-index: 100;
+}
+
+.back-to-top__footer {
+  color: var(--yellow);
+  bottom: 25px;
+  right: 25px;
+  font-size: 3.5rem;
+  z-index: 100;
+}
+
+.back-to-top .backIcon,
+.back-to-top__footer .backIcon {
+  background-color: white;
+  border: 2x solid var(--yellow);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.back-to-top .backIcon:hover,
+.back-to-top__footer .backIcon:hover {
+  color: white;
+  background-color: var(--yellow);
+}
+
+.back-to-top:hover .backIcon,
+.back-to-top__footer:hover .backIcon {
+  color: white;
+  background-color: var(--yellow);
+}
+
+.back-to-top .backIcon:active .back-to-top__footer:active {
+  color: white;
+  background-color: var(--yellow);
+}
+
+.back-to-top__footer {
+  position: absolute;
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .back-to-top {
+    display: none;
+  }
+
+  .back-to-top__footer {
+    position: absolute;
+    display: block;
+  }
+}
+
+/* Back to top button*/
 
 /*media queries*/
 

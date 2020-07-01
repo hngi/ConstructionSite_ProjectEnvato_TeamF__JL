@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav  ml-auto text-center">
                         <li class="nav-item  ">
-                            <a class="nav-link current" href="#" data-toggle="collapse" data-target=".navbar-collapse.show"> Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link current" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show"> Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projects" data-toggle="collapse" data-target=".navbar-collapse.show"> Projects</a>
@@ -50,7 +50,7 @@
         </nav>
 
         <!-- home -->
-        <header class="home">
+        <header class="home" id="home">
             <div class="container">
                 <div class="home-heading text-center">
                     <p class="text-uppercase mb-0">Creative builders </p>
@@ -62,7 +62,7 @@
         </header>
    
         <!-- About Us -->
-        <section class="about " id="about">
+        <div class="about " id="about">
             <div class="container">
                 <h2 class="text-center text-uppercase mb-4"> About us</h2>
                 <div class="card-deck">
@@ -101,10 +101,10 @@
                         More </button>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!-- Features projects -->
-        <section class="projects pt-5 mt-5 mb-0 pb-5" id="projects">
+        <div class="projects pt-5 mt-5 mb-0 pb-5" id="projects" name="projects">
             <div class="container">
                 <h2 class="text-center text-uppercase mb-4"> Featured projects</h2>
                 <ul class="nav nav-pills mb-3 flex-column flex-lg-row justify-content-around" id="pills-tab"
@@ -192,11 +192,11 @@
                         all </button>
                 </div>
             </div>
-        </section>
+        </div>
 
 
         <!--  Workflow -->
-        <section class="workflow h-100">
+        <div class="workflow h-100">
             <div class="container h-100 align-self-end">
                 <div class="row  h-100 align-self-end ">
                     <div class="col-lg-5 align-self-end order-lg-1 order-2">
@@ -225,11 +225,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
 
         <!-- Services -->
-        <section class="services pt-0 pb-5" id="services">
+        <div class="services pt-0 pb-5" id="services">
             <div class="container">
                 <h2 class="text-center text-uppercase mb-4"> Our services </h2>
                 <div class="row mt-5 ">
@@ -291,10 +291,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!-- what people say -->
-        <section class="people mt-5" id="pages">
+        <div class="people mt-5" id="pages">
             <h2 class="text-center text-uppercase mb-5"> What people say </h2>
             <!--Carousel Wrapper-->
             <div id="multi-item-example" class="carousel slide carousel-multi-item pt-3" data-ride="carousel">
@@ -455,10 +455,10 @@
             </div>
             <!--/.Carousel Wrapper-->
 
-        </section>
+        </div>
 
         <!-- Our company -->
-        <section class="company mt-5 mb-5">
+        <div class="company mt-5 mb-5">
             <div class="container">
                 <h2 class="text-center text-uppercase mb-5"> Our Company</h2>
                 <div class="row mt-5">
@@ -502,11 +502,11 @@
                 </div>
             </div>
 
-        </section>
+        </div>
 
 
         <!-- Blog-->
-        <section class="blog" id="blog">
+        <div class="blog" id="blog">
             <div class="container">
                 <h2 class="text-center text-uppercase mb-5"> blog posts</h2>
                 <div class="card-deck">
@@ -548,10 +548,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     
         <!-- Banner  -->
-        <section class="banner">
+        <div class="banner">
             <div class="container d-flex flex-column justify-content-around flex-md-row">
                 <div class=" text-white text-center p-5 align-items-center">
                     <p class="banner__number"> 500+</p>
@@ -568,10 +568,10 @@
 
             </div>
             </div>
-        </section>
+        </div>
 
         <!-- Contact us  -->
-        <section class="contact mt-5" id="contact">
+        <div class="contact mt-5" id="contact">
             <div class="container mb-5">
                 <h2 class="text-center  "> Contact Us</h2>
                 <p class="text-center contact__subtitle mb-5"> Do not Hesitate to contact us</p>
@@ -603,17 +603,22 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4911588753216!2d3.334067814266794!3d6.585703724265425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b91f4561a4f95%3A0x35b4d251e9caeb49!2sTijani%20Ahmed%20Way%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sar!4v1593524047503!5m2!1sen!2sar"
                 width="inherit" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0" class="w-100"></iframe>
-        </section>
+        </div>
 
         <!--Footer  -->
         <footer class="footer pt-0 pt-5">
             <div class="container pt-5 ">
-                <div class="input-group">
-                    <input class="form-control form-control-lg" placeholder="Email Address">
-                    <span class="input-group-btn ">
-                        <button class="btn btn-contact btn-lg">Subscribe</button>
-                    </span>
+                <div class="row">
+                    <div class="col-md-9 mr-0 pr-md-0 mb-3">
+                        <div class="input-group">
+                            <input class="form-control form-control-lg" placeholder="Email Address">  
+                        </div>
+                    </div>
+                    <div class="col-md-3 ml-md-0 pl-md-0 ml-3">              
+                        <button class="btn btn-contact d-block btn-lg">Subscribe</button>
+                    </div>
                 </div>
+                
                 <div class="d-flex flex-column justify-content-between flex-md-row mt-5 text-center text-md-left">
                     <div class="mb-5">
                         <p class="text-uppercase text-white"> Social media links</p>
