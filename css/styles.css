@@ -336,7 +336,6 @@ footer{
     margin-right: 0rem;
     margin-left: 0rem;
     display: flex;
-    margin-bottom: -3rem;
   }
   .col-cus{
     flex: 0 0 54.333%;
@@ -357,17 +356,17 @@ footer{
   }
   .carousel-item.active {
     margin-left: 0rem;
-    padding-right: 0rem;
+    padding-right: 1rem;
 }
   .cu{
-    margin-left:.8rem ;
+    margin-left:0rem ;
   }
-  .mx-auto1{
-    margin-left: 0rem !important;
-  }
-  .mx-auto2{
-    padding-right: 0rem !important;
-  }
+  .mx-auto2 {
+    padding-right: 9rem !important;
+}
+ .mx-auto1 {
+    margin-left: 4.5rem !important;
+ }
   .pic-head{
     padding-top: 2rem; 
     margin-left: 2rem;   
@@ -378,10 +377,13 @@ margin-left: 1.4rem;
 height: 16.5rem; 
 margin-bottom: 1rem;
 }
-.service{
-  margin-right: 1.4rem;
-  margin-left: 1.4rem;
-  height: 11.5rem; 
+.service {
+  margin-right: 4.4rem;
+  margin-left: 3.4rem;
+  height: 13.5rem;
+}
+.foot {
+  font-size: 15px;
 }
 .partners{
 margin-top: -4.5rem;
@@ -399,23 +401,23 @@ margin-left: 0rem;
     margin-left: 0rem;
 }
 .my-4 hr {
-  width: 28%;
+  width: 14%;
   margin: 2rem -13.88rem 0;
 }
 .blog hr {
-  width: 50.6%;
+  width: 24.6%;
   margin: 2em -13.88rem 0;
 }
 .service hr {
-  width: 43.6%;
+  width: 23.6%;
   margin: 2rem -13.88rem .3rem;
 }
 .recent hr {
-    width: 44.6%;
-    margin: 2rem -13.88rem 0;
-  }
+  width: 21.6%;
+  margin: 2rem -13.88rem 0;
+}
 .partners hr {
-  width: 39.4%;
+  width: 19.4%;
   margin: 2rem -13.88rem 0;
 }
 .mm{
@@ -429,16 +431,16 @@ margin-left: 0rem;
   margin-left: 0;
   margin-right: 0;
 }
-.pi{
-  width:100px;
-  height:70px;
+.pi {
+  width: 190px;
+  height: 90px;
 }
 .p-head{
   padding-top: 4rem; 
   margin-left: 2rem;
 }
-.p-control{
-  margin-left: 22.3rem;
+.p-control {
+  margin-left: 42.1rem;
   margin-top: -1rem;
   margin-bottom: 0rem;
 }
@@ -457,17 +459,17 @@ text-align: left;
 margin-left: -1rem;
 }
 .con-mob{
-  margin-left: 22.9rem;
+  margin-left: 43.7rem;
 margin-top: -1rem;
 margin-bottom: 1rem;
 }
 .icon{
-  height: 14px;
-  width: 14px;
+  height: 20px;
+  width: 20px;
 }
 .icon2{
-  height: 14px;
-  width: 14px;
+  height: 20px;
+  width: 20px;
 }
 .cariu{
   position: relative;
@@ -491,10 +493,10 @@ margin-left: 0rem;
 .top-blog {
   height: 8.5rem;
 }
-.blog-control{
-  margin-left: 21.07rem;
-margin-top: -1rem;
-margin-bottom: .6rem;
+.blog-control {
+  margin-left: 40.9rem;
+  margin-top: -1rem;
+  margin-bottom: .6rem;
 }
 .test{
   font-size: 24px;
@@ -507,8 +509,8 @@ line-height: 114.19%;
 .paragraph{
   line-height: 100.19%;
 }
-.recent-control{
-  margin-left: 21.07rem;;
+.recent-control {
+  margin-left: 40.9rem;
   margin-top: -1rem;
   margin-bottom: .7rem;
 }
@@ -581,6 +583,75 @@ margin-top: 2rem;
 .ser{
   margin-top: 0rem;
   margin-bottom: 0rem;
+}
+@media(max-width:414px){
+  .one-auto{
+    padding:1rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    display: flex;
+    margin-bottom: -3rem;
+  }
+  .cu{
+    margin-left:.8rem ;
+  }
+  .mx-auto1{
+    margin-left: 0rem !important;
+  }
+  .mx-auto2{
+    padding-right: 0rem !important;
+  }
+  .icon{
+  height: 14px;
+  width: 14px;
+}
+.icon2{
+  height: 14px;
+  width: 14px;
+}
+.con-mob{
+  margin-left: 22.9rem;
+}
+.blog hr {
+  width: 50.6%;
+}
+.blog-control{
+  margin-left: 21.07rem;
+}
+.service{
+  margin-right: 1.4rem;
+  margin-left: 1.4rem;
+  height: 11.5rem; 
+}
+.service hr {
+  width: 43.6%;
+}
+.carousel-item.active {
+  margin-left: 0rem;
+  padding-right: 0rem;
+}
+.recent hr {
+  width: 44.6%;
+}
+.recent-control{
+  margin-left: 21.07rem;;
+}
+.pi{
+  width:100px;
+  height:70px;
+}
+.partners hr {
+  width: 39.4%;
+  margin: 2rem -13.88rem 0;
+}
+.p-control{
+  margin-left: 22.3rem;
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+}
+.foot {
+  font-size: 20px;
+}
 }
 @media(max-width:375px){
   .blog-mob{
