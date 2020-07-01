@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome icons (free version)-->
+    <!-- Font Awesome icons (free version)
     <script src="./assets/font awsome/js/all.js"></script>
+    -->
     <!-- Google fonts -->
     <!-- Bootstrap -->
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Core theme CSS-->
     <link href="css/styles.css" rel="stylesheet" />
-    <title> Construction </title>
+    <title>Construction</title>
 </head>
 
 <body class="wrapper">
@@ -79,7 +80,7 @@
                 <div class="container w-75">
                     <div id="masthead-content">
                         <h1>WE ARE</h1> 
-                        <h1 class="brand-name">iCONSTRUCT</h1>
+                        <h1 id="icon">iCONSTRUCT</h1>
                         <hr>
                         <p id="first-line">We set the pace for others to follow in the construction business.</p>
                         <p id="second-line">If we can think it, we can make it!</p>
@@ -140,7 +141,6 @@
                     </div>
                 </div>
             </div>
-            
         </div>
         <!-- Cards -->
 
@@ -150,22 +150,32 @@
             <!-- Recent Projects Overlay -->
             <div id="recent-projects-overlay">
                 <div class="container w-75">
-                    <div id="recent-projects-content">
-                        <h3 class="brand-name">RECENT PROJECTS</h3>
+                    <div id="recent-projects-header" class="section-title">
+                        <h4>RECENT PROJECTS</h4>
                     </div>
-                    <div id="project-imgs" class="row">
-                        <div id="img-1" class="col-md-4">
-                            
-                        </div>
-                        <div id="img-2" class="col-md-4">
-                            
-                        </div>
-                        <div id="img-3" class="col-md-4">
-                            
+                    <div id="project-imgs">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img class="card-img-top slide-image" 
+                                     src="img/slider_1.png" alt="Slide 1">
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top slide-image" 
+                                     src="img/slider_2.png" alt="Slide 2">
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top slide-image" 
+                                     src="img/slider_3.png" alt="Slide 3">
+                            </div>
                         </div>
                     </div>
-                    <div id="project-imgs-controls">
-
+                    <div id="project-imgs-controls" class="text-center">
+                        <a href="">
+                            <i class="fas fa-caret-left fa-3x"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-caret-right fa-3x"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -175,33 +185,228 @@
         <!-- Recent Projects -->
         
         <!-- Blog Posts -->
-        <section>
-
-        </section>
+        <div id="blog-posts">
+            <div class="container w-75">
+                <div id="blog-posts-header" class="section-title">
+                    <h4>BLOG POSTS</h4>
+                </div>
+                <div id="blog-content">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top slide-image" 
+                                 src="img/blog_left.png" alt="Construction worker on site">
+                        </div>
+                        <div class="card text-center">
+                            <h5>CONSTRUCTION</h5>
+                            <p>
+                                We have a lot to say but we believe that actions speak a lot
+                                better than words. <br>
+                                Our customers...
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top slide-image" 
+                                 src="img/blog_left.png" alt="Construction worker on site">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Blog Posts -->
 
         <!-- Our Services -->
-        <section>
+        <div id="services">
+            
+            <div class="container w-75">
+                <div id="services-header" class="section-title">
+                    <h4>OUR SERVICES</h4>
+                </div>
+                <div id="services-icons">
+                    <div class="card-deck text-center">
+                        <div class="card">
+                            <div class="services-icon-img">
+                                <img class="mx-auto d-block" 
+                                 src="img/delivery_truck.svg" width="70%" height="70%" alt="Delivery Truck">
+                                 <div class="icon-text">DELIVERY TRUCK</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="services-icon-img">
+                                <img class="mx-auto d-block" 
+                                 src="img/bulldozer.svg" width="70%" height="70%" alt="Bulldozer">
+                                 <div id="bulldozer" class="icon-text">BULLDOZER</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="services-icon-img">
+                                <img class="mx-auto d-block" 
+                                 src="img/excavator.svg" width="70%" height="70%" alt="Excavator">
+                                 <div id="excavator" class="icon-text">EXCAVATOR</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="services-icon-controls" class="text-center">
+                    <a href="">
+                        <i class="fas fa-caret-left fa-3x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-caret-right fa-3x"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
 
-        </section>
+        </div>
         <!-- Our Services -->
 
         <!-- Testimonials -->
-        <section>
+        <div id="testimonials">
 
-        </section>
+            <!-- Testimonials Overlay -->
+            <div id="testimonials-overlay">
+
+                <div class="container w-75">
+                    <div id="testimonials-header">
+                        <h4>TESTIMONIALS</h4>
+                    </div>
+                    <div id="testimonials-content" class="text-center">
+                        iConstruct have been leading the construction industry for quite sometime now and 
+                        when they handled my new skyscraper, the job was nothing short of amazing.
+                    </div>
+                    <div id="testimonials-img">
+                        <img class="mx-auto d-block" src="img/testimonial_customer.png" 
+                             width="90" height="90" alt="Customer">
+                    </div>
+                    <div id="testimonials-img-details" class="text-center">
+                        <p id="customer-name">Janet Jackson</p>
+                        <p id="company-name">CEO Empire Studios</p>
+                    </div>
+                    <div id="testimonials-img-controls" class="text-center">
+                        <a href="">
+                            <i class="fas fa-circle"></i>
+                        </a>
+                        <a href="">
+                            <i class="far fa-circle"></i>
+                        </a>
+                        <a href="">
+                            <i class="far fa-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Testimonials Overlay -->
+                
+        </div>
         <!-- Testimonials -->
 
         <!-- Recent News -->
-        <section>
+        <div id="recent-news">
+            <div class="container w-75">
 
-        </section>
+                <!-- Recent News Header -->
+                <div id="news-header" class="section-title">
+                    <h4>RECENT NEWS</h4>
+                </div>
+                <!-- Recent News Header -->
+
+                <!-- Recent News Items -->
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="img/first_card.png" alt="Best House">
+                        <div class="card-body">
+                            <h5 class="card-title">BEST HOUSE</h5>
+                            <p class="card-text my-4">Our job is not just to make what you have in mind become 
+                                a reality but also to help you achieve the dream...
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="#">READ MORE</a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="img/second_card.png" alt="Modern Design">
+                        <div class="card-body">
+                            <h5 class="card-title">BEST HOUSE</h5>
+                            <p class="card-text my-4">Our job is not just to make what you have in mind become 
+                                a reality but also to help you achieve the dream...
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="#">READ MORE</a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="img/third_card.png" alt="Team Work">
+                        <div class="card-body">
+                            <h5 class="card-title">BEST HOUSE</h5>
+                            <p class="card-text my-4">Our job is not just to make what you have in mind become 
+                                a reality but also to help you achieve the dream...
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="#">READ MORE</a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recent News Items -->
+
+                <!-- Recent News Image Controls -->
+                <div id="news-icon-controls" class="text-center">
+                    <a href="">
+                        <i class="fas fa-caret-left fa-3x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-caret-right fa-3x"></i>
+                    </a>
+                </div>
+                <!-- Recent News Image Controls -->
+
+            </div>
+        </div>
         <!-- Recent News -->
 
         <!-- Our Partners -->
-        <section>
+        <div id="partners">
+            <div class="container w-75">
 
-        </section>
+                <div id="partners-header" class="section-title">
+                    <h4>OUR PARTNERS</h4>
+                </div>
+                <div id="partners-icons">
+                    <div class="card-deck text-center">
+                        <div class="card">
+                            <img class="mx-auto d-block" src="img/envato.svg" alt="Envato">
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto d-block" src="img/walt_disney.svg" alt="Walt Disney">
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto d-block" src="img/coca_cola.svg" alt="Coca Cola">
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto d-block" src="img/wordpress.svg" alt="WordPress">
+                        </div>
+                    </div>
+                </div>
+                <div id="partners-icon-controls" class="text-center">
+                    <a href="">
+                        <i class="fas fa-caret-left fa-3x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-caret-right fa-3x"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
         <!-- Our Partners -->
 
     </main>
@@ -209,10 +414,75 @@
 
     <!--Footer -->
     <footer class="footer">
-
+       <div id="footer-container" class="container w-75">
+        <div class="row">
+            <div class="col-md-3">
+                <h6>iCONSTRUCT</h6>
+                <p>We set the pace for others to follow in the construction business.</p>
+                <p>If we can think it, we can make it.</p>
+            </div>
+            <div class="col-md-3">
+                <h6>GET IN TOUCH</h6>
+                <p>No. 111, Federal Housing Estate, Victoria Island</p>
+                <p>+234 (0) 705 556 6674</p>
+                <p>iconstruct@gmail.com</p>
+            </div>
+            <div id="footer-project-imgs" class="col-md-3">
+                <h6>RECENT PROJECTS</h6>
+                <div id="footer-img-top" class="row">
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-top-left.svg" alt="Project Image">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-top-left-1.svg" alt="Project Image">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-top-left-2.svg" alt="Project Image">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-top-right.svg" alt="Project Image">
+                    </div>
+                </div>
+                <div id="footer-img-bottom" class="row">
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-bottom-left.svg" alt="Project Image">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-bottom-left-1.svg" alt="Project Image">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-bottom-left-2.svg" alt="Project Image">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="footer-img" src="img/footer-bottom-right.svg" alt="Project Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h6>SUBSCRIBE</h6>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="subscribe-email" 
+                               placeholder="EMAIL HERE">
+                    </div>
+                </form>
+                <a id="subscribe" href="" type="button" class="btn btn-md sub-section-btn">
+                    SUBSCRIBE
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 text-center">
+                <p id="copyright">
+                    &copy; 2020 iCONSTRUCT Nig. Ltd
+                </p> 
+            </div>
+        </div>
+       </div>
     </footer>
     <!--Footer -->
 
+    <script src="https://kit.fontawesome.com/ae3427d2c7.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS Links  -->
     <script src="./assets/jquery//jquery-3.5.1.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
@@ -222,44 +492,3 @@
 </body>
 
 </html>
-
-
-<!-- 
-<nav class="navbar navbar-expand-lg sticky-top">
-    <a href="" class="navbar-brand">Brand</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse w-100" id="mainNav">
-        <ul class="navbar-nav w-100 justify-content-center" id="navElements">
-            <li class="nav-item active">
-                <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Prelicensing</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Schedule &amp; Cost</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Defensive Driving</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Road Test Prep.</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">FAQ</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Reviews</a>
-            </li>
-        </ul>
-    </div>
-</nav>
--->
