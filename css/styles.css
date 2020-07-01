@@ -27,7 +27,7 @@ body {
 }
 
 .current {
-  color: var(--yellow) !important;
+  color: var(--primary-color) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -44,7 +44,7 @@ body {
 }
 
 #navbarNav a:hover {
-  color: var(--yellow);
+  color: var(--primary-color);
 }
 
 .nav-item {
@@ -100,24 +100,19 @@ body {
 }
 
 .btn-home {
-  background-color: var(--yellow);
+  background-color: var(--primary-color);
   color: white;
   letter-spacing: 0.4rem;
   padding: 0.75rem 3rem;
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--primary-color);
   margin-top: 1rem;
 }
 
 .btn-home:hover {
   background-color: transparent;
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--primary-color);
   color: white;
 }
-
-@media screen and (min-width: 768px) {
-  .home-heading h1 {
-    font-size: 3rem;
-  }
 
   .home-heading p {
     font-size: 1.5rem;
@@ -125,8 +120,6 @@ body {
   .btn-home {
     margin-top: 2rem;
   }
-}
-/*Mastehead*/
 
 /* About Us*/
 .about {
@@ -139,7 +132,7 @@ body {
 }
 
 .about .card-body {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--primary-color);
   border-top: none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -155,7 +148,7 @@ body {
 
 .projects .nav-pills .nav-link.active,
 .projects .nav-pills .show > .nav-link {
-  background-color: var(--yellow);
+  background-color: var(--primary-color);
 }
 
 .projects a {
@@ -168,7 +161,7 @@ body {
 }
 .projects a:hover {
   color: #fff;
-  background-color: var(--yellow);
+  background-color: var(--primary-color);
 }
 
 .projects .row div {
@@ -193,7 +186,7 @@ body {
 
 .workflow h2,
 .workflow h5 {
-  color: var(--yellow);
+  color: var(--primary-color);
 }
 
 .workflow h4,
@@ -212,7 +205,7 @@ body {
   overflow: show;
   box-shadow: 0px 11px 21px hsla(228, 6%, 66%, 0.5);
   border: none;
-  border-bottom: 5px solid var(--yellow);
+  border-bottom: 5px solid var(--primary-color);
 }
 
 .people .card img {
@@ -231,7 +224,7 @@ body {
   border-radius: 50%;
   width: 15px;
   height: 15px;
-  background-color: var(--yellow);
+  background-color: var(--primary-color);
 }
 
  
@@ -273,7 +266,7 @@ body {
 
 .company__list li::before {
   content: "•";
-  color: var(--yellow);
+  color: var(--primary-color);
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -305,21 +298,21 @@ body {
 }
 
 .blog .card-body {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--primary-color);
   border-top: none;
   border-bottom: none;
   color: #3a3a3a;
 }
 
 .blog .card-footer {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--primary-color);
   border-top: none;
   border-bottom-left-radius: 11px;
   border-bottom-right-radius: 11px;
 }
 
 .blog .card-footer a {
-  color: var(--yellow);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -380,11 +373,11 @@ body {
 
 .contact__icon {
   font-size: 2rem;
-  color: var(--yellow);
+  color: var(--primary-color);
 }
 
 .contact__color {
-  color: var(--yellow);
+  color: var(--primary-color);
 }
 
 .contact__text {
@@ -404,11 +397,12 @@ body {
 }
 
 .btn-contact {
-  background-color: var(--yellow);
+  background-color: var(--primary-color);
   color: white;
   border-radius: 0px;
-  border: solid var(--yellow);
+  border: solid var(--primary-color);
   border-width: 1px 1px;
+  border-radius: none;
 }
 
 .btn-contact:hover {
@@ -418,72 +412,13 @@ body {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: var(--yellow);
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
-/* Footer */
-
-/* Back to top button*/
-
-.back-to-top {
-  position: fixed;
-  color: var(--yellow);
-  bottom: 25px;
-  right: 25px;
-  font-size: 3.5rem;
-  z-index: 100;
+.footer__icon:hover {
+  color:  rgb(255, 167, 0, 0.8);
 }
-
-.back-to-top__footer {
-  color: var(--yellow);
-  bottom: 25px;
-  right: 25px;
-  font-size: 3.5rem;
-  z-index: 100;
-}
-
-.back-to-top .backIcon,
-.back-to-top__footer .backIcon {
-  background-color: white;
-  border: 2x solid var(--yellow);
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.back-to-top .backIcon:hover,
-.back-to-top__footer .backIcon:hover {
-  color: white;
-  background-color: var(--yellow);
-}
-
-.back-to-top:hover .backIcon,
-.back-to-top__footer:hover .backIcon {
-  color: white;
-  background-color: var(--yellow);
-}
-
-.back-to-top .backIcon:active .back-to-top__footer:active {
-  color: white;
-  background-color: var(--yellow);
-}
-
-.back-to-top__footer {
-  position: absolute;
-  display: none;
-}
-
-@media screen and (min-width: 1440px) {
-  .back-to-top {
-    display: none;
-  }
-
-  .back-to-top__footer {
-    position: absolute;
-    display: block;
-  }
-}
-
-/* Back to top button*/
 
 /*media queries*/
 
@@ -497,5 +432,10 @@ body {
   }
   .btn-navbar {
     margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-heading h1 {
+    font-size: 3rem;
   }
 }
