@@ -6,7 +6,6 @@
 	--light-color: #f4f4f4;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +20,7 @@ body {
 
 /* Navbar */
 #mainNav {
-  background-color: rgba(83, 104, 126, 0.6);
+  background-color: #212529;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -45,10 +44,15 @@ body {
 
 #navbarNav a:hover {
   color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
 }
 
-.nav-item {
+.nav-item  {
   margin: 1rem 0.9rem;
+}
+
+.navbar .nav-item > .nav-link.active  {
+  color: var(--primary-color) !important;
 }
 
 .navbar-dark .navbar-brand {

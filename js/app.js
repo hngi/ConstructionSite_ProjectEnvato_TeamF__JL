@@ -40,11 +40,21 @@
         return false;
     });
 
+    //close collapsible navbar when a link was click
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
+    // set active link
+    $('.navbar-nav .nav-link').click(function(){
+        $('.navbar-nav .nav-link').removeClass('current');
+        $('.navbar-nav .nav-link').removeClass('active');
+        $(this).addClass('active');
+    })
 })(jQuery); // End of use strict
 
 
-// function to call whyen id bookmark doesn't work properly
+//
 $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
