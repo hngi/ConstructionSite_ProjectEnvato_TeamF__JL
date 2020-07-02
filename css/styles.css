@@ -14,7 +14,7 @@ body {
 
 .wrapper__page {
   max-width: 1440px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 /* Utility Classes */
 .bac-yellow {
@@ -390,14 +390,8 @@ svg.rightFA {
 }
 
 .blog-0 {
-  background: url(../img/Rectangle19.png) center center no-repeat;
-  height: 50%;
-  width: 100%;
-  background-size: cover;
-}
-.blog-1 {
-  background: url(../img/Rectangle21.png) center center no-repeat;
-  height: 50%;
+  background: url(../img/Component5.png) center center no-repeat;
+  height: 100%;
   width: 100%;
   background-size: cover;
 }
@@ -1049,3 +1043,9 @@ footer h5 {
     display: block;
   }
 }
+
+/* @media (min-width: 576px) and (max-width: 768px) {
+  #blogposts .last {
+    margin-top: 20px;
+  }
+} */
