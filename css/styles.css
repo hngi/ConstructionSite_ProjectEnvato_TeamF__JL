@@ -1,7 +1,969 @@
+/*-----------------------------------FONTS----------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/*-----------------------------------FONTS----------------------------------------------*/
+
+/*------------------------------GENERAL STYLING-----------------------------------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
+.wrapper__page {
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+
+.container
+    {
+   max-width: 960px;
+}
+/*------------------------------GENERAL STYLING-----------------------------------------*/
+
+/***********************************NAVABAR STYLING***************************************/
+.navbar-custom {
+    width: 100% !important;
+    margin: 0 auto;
+    background-color: #FFFFFF !important;
+    height: 100%;
+}
+
+.navbar-brand {
+    position: relative;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;  
+    right: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nav-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 27px;
+}
+
+.struct {
+    margin-left: -6px;
+}
+
+
+.fas {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+    
+.navbar-nav {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    align-items: center;
+    color: #000000;
+}
+
+.nav-search {
+    display:  !important;
+}
+
+/***********************************END NAVABAR STYLING***************************************/
+
+/***********************************BANNER STYLING***************************************/
+
+
+.banner {
+    background-image: url(../assets/Images/Cover.png);
+    background-position: center;
+    align-items: center;
+    height: 530px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.banner::before {
+    background-color: rgba(0, 0, 0, 0.46);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 530px;
+    z-index: 0;
+    z-index: 0;
+}
+
+.message {
+    position: relative;
+    top: 25%;
+/*    left: 10%;*/
+}
+
+.msg-h1 {
+    width: 40%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #FFFFFF;
+    align-content: center;
+    margin-bottom: -10px; 
+    
+}
+
+.hr-top {
+    width: 14%;
+    position: relative; 
+    top: -10px; 
+    border: none; 
+    height: 5px; 
+    background: black; 
+    background: #FCC139;
+
+}
+
+.msg-p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 158.19%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.btn {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin-top: 15px;
+    font-family: Source Sans Pro;
+    line-height: 23px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/***********************************END BANNER STYLING***************************************/
+
+/***********************************JUMBOTRON STYLING***************************************/
+
+.expert {
+    font-family: Source Sans Pro;
+    height: 10px;
+    background: #D5A43B;
+    border-radius: 0;
+    text-align: center;
+    align-content: center;
+    padding: 35px;
+}
+
+.jumbo-txt {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+
+/***********************************END JUMBOTRON STYLING***************************************/
+
+/***********************************FIRST CARD STYLING***************************************/
+
+.card-body-1 {
+    text-align: start;
+    margin-top: 10%;
+}
+
+.card-body-1 a {
+    margin-left: -15px;
+    margin-bottom: 50px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FCC139;
+}
+
+.card-body-1 h5 {
+    margin-bottom: 10%;
+}
+
+.card-1 {
+    margin-right: -15px;
+}
+
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
+.card-na {
+        width: 100%;
+        margin-left: 45%;
+       
+}
+/***********************************END FIRST CARD STYLING***************************************/
+
+/***********************************RECENT PROJECTS STYLING***************************************/
+.banner1 {
+    background-image: url(../assets/Images/Rectangle%2056.png);
+    position: absolute;
+    width: 100%;
+    height: 394px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner1::before {
+    background-color: rgba(32, 46, 49, 0.8);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 394px;
+    z-index: 0;
+    
+}
+
+.h3-rp {    
+    position: relative;
+    margin-bottom: 28px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    
+}
+
+.bn1 {
+    position: relative;
+    top: 18%
+}
+
+.con-rp {
+    position: relative;
+    right: 30px;
+   top: -40px;
+}
+
+.caret {
+    position: relative;
+    display: flex;
+    width: 70px;
+    left: 85%;
+/*    background-color: #202E31;*/
+    margin: 10px;
+    align-items: center;
+    top: -60px
+    
+}
+
+.car-div-1{
+    width: 50px;
+    background-color: #202E31;
+    margin: 1px;
+    height: 40px;
+    
+}
+
+.car-div-2 {
+     width: 50px;
+    background-color: #202E31;
+    margin: 1px;
+    height: 40px
+}
+
+.car-left, .car-right {
+    position: relative;
+    background: 20px;
+    left: 8px;
+    width: 15px;
+    top: 5px;
+} 
+/***********************************END RECENT PROJECTS STYLING***************************************/
+
+/***********************************BLOG POST STYLING***************************************/
+
+.container-blog {
+    max-width: 1100px
+}
+
+.blog-split {
+    position: relative;
+    right: -20px;
+    width: 200px;
+}
+
+.blog-img-1 {
+    margin-bottom: 10px;
+    width: 100%;
+    margin-right: ;
+    object-fit: cover;
+}
+
+.p-con {
+    background-color: white;
+    text-align: right;
+    width: 20px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.b-txt {
+    position: absolute;
+    text-align: right;
+    left: 50px
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 160%;
+    text-align: right;
+
+    color: #3A3A3A;
+}
+
+.h3-bl {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #3A3A3A;
+}
+
+.blog-con {
+    position: relative;
+    right: 5%
+}
+
+/***********************************END BLOG POST STYLING***************************************/
+
+/***********************************SERVICES POST STYLING***************************************/
+
+
+.ser-con {
+    margin-bottom: 60px;
+}
+
+.ser-img {
+    position: relative;
+    width: 40px; 
+    border:;
+    
+    
+}
+
+.hr-ser {
+    position: relative;
+    width: 160px;
+    background-color: #000000;
+    margin-top: 0px;
+}
+
+.card-ser {
+    height: 162px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px 15px #F3F3F3;
+    margin-right: 15px;
+    
+}
+
+.caret-ser{
+    position: relative;
+    top: -2em;
+    left: 85%;
+    
+}
+
+/***********************************SERVICES POST STYLING***************************************/
+
+/***********************************CAROUSEL STYLING***************************************/
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 394px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel-item::before {
+    background-color: rgba(32, 46, 49, 0.8);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 394px;
+    z-index: 0;
+    
+}
+
+.carousel-indicators>li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+    border: 1.2px white solid;
+  background-color: transparent;
+}
+
+.carousel-indicators .active{
+    background-color: #FCC139;
+}
+
+
+
+.display-2 {
+    position: relative;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    top: -20px;
+    color: #FFFFFF;
+}
+
+.p-p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    line-height: 204.19%;
+    padding: 0 15%;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.p-j {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 204.19%;
+    align-items: center;
+    text-align: center;
+    color: #FCC139;
+}
+
+.p-c {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 204.19%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -2%;
+}
+/***********************************END CAROUSEL STYLING***************************************/
+
+/***********************************RECENT NEWS STYLING***************************************/
+
+.card-b {
+    position: relative;
+    top: 40px;
+    border-radius: none;
+}
+
+.car-t {
+    position: relative;
+    text-align: end;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3A3A3A;
+    top: 20px;
+}
+
+.card-news {
+    background-color: #e9ecef;
+}
+
+.card-title-news {
+    background-color: #e9ecef;
+}
+
+.jumbo-news {
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+/***********************************END RECENT NEWS STYLING***************************************/
+
+/***********************************PARTNERS STYLING***************************************/
+
+.prt-img-1, .prt-img-2, .prt-img-3, .prt-img-4 {
+    position: relative;
+    right: 3%;
+    margin: 3% 0px 0px 0px;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    max-width: inherit;
+    
+}
+/***********************************END PARTNERS STYLING***************************************/
+
+/***********************************FOOTER STYLING***************************************/
+
+footer {
+    position: relative;
+    
+    height: 299%;
+    left: 0px;
+    background: #202E31;
+}
+
+.foot-col {
+    margin-top: 50px;
+}
+
+.foot-col h4 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FCC139;
+    margin-bottom: 30px;
+}
+
+.foot-col p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.f-img-5 {
+    position: relative;
+    left: 5px;
+}
+
+.foot-col img {
+    margin-bottom: 5px;
+}
+
+.foot-img {
+    position: relative;
+    right: 3%;
+}
+
+.form {
+    position: relative;
+    top: -12%;
+}
+
+.form-control {
+    width: 100%
+}
+
+.btn-foot {
+width: 40%;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FCC139;
+height: 40px;
+border: solid 1px #FCC139;      
+}
+
+.copy {
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FCC139;
+}
+/***********************************END FOOTER STYLING***************************************/
+
+/***********************************MEDIA QUERIES 1000PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 1000px) {
+ 
+    
+   
+    
+    .container {
+        max-width: 920px;
+}
+    
+    .prt-img-1, .prt-img-2, .prt-img-3, .prt-img-4 {
+        width: 170px;
+    
+}
+    
+    .caret {
+    left: 82%;
+    
+}
+
+
+}
+/***********************************END MEDIA QUERIES 1000PX-MAX-WIDTH***************************************/
+
+/***********************************MEDIA QUERIES 950PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 950px) {
+    
+    .wrapper__page {
+        max-width: 2000px;
+        
+    }
+    
+    .container-fluid {
+        max-width: 2000px
+        
+    }
+    
+    .bn1 {
+    left: 25px;
+    
+}
+    .ser-cont {
+    position: relative;
+    left: 30px;
+    overflow: hidden;
+} 
+
+    .card-ser {
+        width: 80%
+    }
+    
+    .prt-img-1, .prt-img-2, .prt-img-3, .prt-img-4 {
+        width: 20%;
+        overflow: hidden
+        
+    }
+    
+    .pts {
+        position: relative;
+        left: 20px;
+    }
+    
+    .message {
+    right: 10%;
+    width: 70%;
+
+}
+    .b-txt {
+        font-size: 13px;
+        width: 70%;
+        left: 40px;
+    }
+    
+    .b-txt h3 {
+        font-size: 21px
+    }
+
+    
+}
+
+/***********************************END MEDIA QUERIES 950PX-MAX-WIDTH***************************************/
+
+/***********************************MEDIA QUERIES 767PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 767px) {
+     html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    
+    footer {
+        height: 140%
+    }
+    
+   .blog-split {
+        width: 200px;
+        left: 150px;
+        top: 130px
+    }
+    
+    
+    .blog-con {
+        display: grid !important;
+        right: 190px;
+        bottom: 100px
+        
+            
+    }
+    
+    .caret {
+        display: none;
+    }
+    
+    .blog-img-2, .blog-img-2 {
+        position: relative;
+        top: 100px;
+    }
+    
+    .p-con {
+        height: 150px;
+        width: 100%;
+        left: 80px
+    }
+    .img2 {
+        height: 240px;
+        width: 1000px;
+        left: 350px;
+}
+    .b-txt {
+        text-align: left;
+        width: 500px;
+        left: 70px;
+        font-size: 18px
+    }
+    
+
+    
+    .foot-img {
+        display: none
+    }
+    
+    .display-2 {
+        top: 10px;
+    }
+    
+    .btn-foot {
+        width: 80px
+    }
+    
+    .form {
+        width: 60%
+    }
+    
+    
+    
+    .hr-rp {
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+}
+/***********************************END MEDIA QUERIES 767PX-MAX-WIDTH***************************************/
+
+/***********************************MEDIA QUERIES 625PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 625px) {
+    .message {
+        left: 80px
+    }
+    .msg-h1 {
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+
+    }
+    
+    .msg-p {
+        position: relative;
+        text-align: center;
+        width: 75%;
+        left: -15px;
+    }
+    
+    .b-txt {
+        margin-top: 10px;
+        width: 40%;
+        font-size: 15px
+    }
+    
+    .btn-outline-secondary {
+        position: relative;
+        left: 15%
+    }
+    
+/*
+    .card-1 {
+        position: relative;
+        left: 50px;
+     
+    }
+*/
+    
+}
+/***********************************END MEDIA QUERIES 625PX-MAX-WIDTH***************************************/
+
+
+
+/***********************************MEDIA QUERIES 500PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 524px) { 
+    .message {
+        left: 60px;
+        width: 70%;
+            
+    }
+    
+    .carousel-caption {
+        padding-bottom: 10px
+    }
+    
+    .blog-img-1 {
+        position: relative;
+        top: 75px;
+        width: 150px;
+    }
+    
+    .blog-img-2 {
+        position: relative;
+        top: px;
+        width: 150px;
+    }
+
+    .img-post {
+        position: relative;
+        top: 85px;
+        width: 200px;
+    }
+}
+
+/***********************************END MEDIA QUERIES 500PX-MAX-WIDTH***************************************/
+
+/***********************************MEDIA QUERIES 437PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 437px) { 
+    body {
+        
+    }
+    
+    .message {
+        position: relative;
+        left: 17%;
+        top: 60px;
+        width: 100%;
+            
+    }
+    
+    .msg-h1 {
+        text-align: center;
+    }
+
+    
+    .carousel-caption {
+        padding-bottom: 0px;
+    }
+    
+
+    .foot-col p {
+        text-align: left;
+    }
+    
+    .blog-img-1 {
+        position: relative;
+        top: 55px;
+        width: 120px;
+        left: 30px;
+    }
+    
+    .blog-img-2 {
+        position: relative;
+        top: 67px;
+        width: 120px;
+        left: 30px;
+    }
+    
+    .blog-split {
+        display: none;
+    }
+
+    .img-post {
+        position: relative;
+        top: 100px;
+        width: 50%;
+        right: 100px;
+    }
+    
+    .b-txt {
+        width: 30%;
+    }
+    
+    .jumbo-f {
+        display: none;
+    }
+    
+    .p-p {
+       font-size: 15px
+    }
+    
+}
+
+/***********************************END MEDIA QUERIES 437PX-MAX-WIDTH***************************************/
+
+
+/***********************************MEDIA QUERIES 396PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 388px) { 
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+
+ .p-p {
+        font-size: 12px;
+    }
+       
+}
+
+/***********************************MEDIA QUERIES 392PX-MAX-WIDTH***************************************/
+
+@media screen and (max-width: 392px) { 
+    
+    .message {
+        left: 40px;
+    }
+ 
+    
+}
