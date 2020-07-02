@@ -3,5 +3,276 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: Source Sans Pro;
+}
+.wrapper__page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h3, h4 {
+  font-weight: bold;
+}
+section {
+    padding-top: 30px;
+
 }
 
+/* Navbar */
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-brand {
+font-weight: bold;
+font-size: 2rem;
+line-height: 44px;
+}
+.brand-color {
+  color: #FCC139;
+}
+.navbar {
+  padding: 1.4% 10% 1.4% ;
+  margin-bottom: 0px;
+  background: #fff;
+  box-shadow: 2px 6px 10px rgba(229, 229, 229, 0.37)
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-toggle {
+  background-color: black;
+}
+.nav-item {
+  font-weight: 600;
+font-size: 1.2rem;
+line-height: 31px;
+  color: #000000;
+  padding: 0 10px 0;
+}
+/*navbar */
+
+/* Masthead */
+.tagline-hero {
+  color: #fff;
+  background: #D5A43B;
+  padding: 10px 0;
+}
+.masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/assets/background1.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  position: relative;
+}
+.masthead-text {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.masthead-text h1 {
+  font-weight: bold;
+}
+.learn-more {
+  border: 1px solid #fff;
+  color: #fff;
+}
+/*masthead*/
+
+/* about us */
+.about-us {
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .about-us {
+   padding: 3% 5% 2%;
+   text-align: left;
+  }
+
+}
+.about-img {
+  padding-top: 30px;
+}
+/* .about-us h3:after {
+    content: "";
+    position: absolute;
+    width: 28%;
+    display: block;
+    height: 5px;
+    background-color: #fcc139;
+    top: 30px;
+    }
+*/
+/* about us */
+
+/* Recent Project */
+.recent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/assets/background2.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .recent {
+   padding: 3% 10% 2%;
+  }
+}
+.recent img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.recent h3 {
+  text-align: center;
+  color: #fff;
+  }
+
+.recent hr {
+  border: 4px solid #FCC139;
+  width: 100px;
+  border-radius: 5px;
+  left: 50%;
+} 
+/* Recent Project */
+
+/* services */
+.services {
+  text-align: center;
+  margin-left: auto;
+}
+@media only screen and (min-width: 600px) {
+  .services {
+   padding: 3% 10% 2%;
+  }
+  .service-box {
+    margin: 20px !important;
+  }
+}
+.service-box {
+ background: #F3F3F3;
+  width: 320px;
+  height: 200px;
+  margin:  20px auto;
+     padding: 20px 20px;
+
+}
+.service-box-inside {
+  
+   padding: 15px 15px;
+  border: 1px solid #000000;
+  height: 160px;
+  width: 280px;
+  background: #fff;
+}
+.services h5 {
+   position: relative;
+  display: inline-block;
+  top: 60%;
+  width:100%;
+  text-align: right;
+  font-weight: bold;
+}
+/* services */
+
+/* blog posts */
+.blog {
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .blog {
+   padding: 3% 10% 2%;
+      text-align: left;
+     }
+}
+.blog-wrapper {
+  background: #F3F3F3;
+}
+.blog-box {
+  padding: 20px 20px;
+}
+
+/* blog posts */
+
+/* TESTIMONIALS */
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/assets/background3.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 3% 10% 2%;
+  position: relative;
+}
+.testimonials h3 {
+  text-align: center;
+  color: #fff;
+}
+.testify {
+  border: 1px solid #FCC139;
+  margin: 20px;
+  padding: 6px;
+  color: #ffffff;
+}
+@media only screen and (min-width: 600px) {
+  .testify-img {
+   margin-top : -20px;
+   margin-left: -60px;
+     }
+}
+
+/* TESTIMONIALS */
+
+/* recent */
+.recent-news {
+  text-align: center;
+      background: #F3F3F3;
+}
+
+.recent-box {
+    padding: 10px 10px;
+    margin: 20px 20px;
+}
+@media only screen and (min-width: 600px) {
+  .recent-news {
+   padding: 3% 10% 2%;
+      text-align: left;
+     }
+}
+/* recent */
+
+
+/* partners */
+.partners {
+  padding: 5% 10% 5%;
+}
+@media only screen and (max-width: 600px) {
+   
+    .partners img {
+    margin-top: 20px;
+    width: 80%;
+  }
+}
+/* partners */
+
+/* Footer */
+footer {
+  background: #202E31;
+    position: relative;
+    padding: 2% 0;
+
+}
+.white-text {
+  color: #fff;
+}
