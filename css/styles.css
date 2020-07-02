@@ -120,6 +120,21 @@ svg.rightFA {
   color: #fcc139;
 }
 
+#navbar.navbar-shrink {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #212529;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+#navbar.navbar-shrink .navbar-brand {
+  font-size: 1.5em;
+}
+#navbar.navbar-shrink .navbar-brand svg,
+#navbar.navbar-shrink .navbar-brand img {
+  height: 1.5rem;
+}
+
 /* Scroll Top Button */
 
 .scroll-top {

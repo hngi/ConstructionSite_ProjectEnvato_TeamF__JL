@@ -15,6 +15,16 @@
     target: "#navbar",
     offset: 74,
   });
+
+  // Collapse Navbar
+  var navbarCollapse = function () {
+    if ($("#navbar").offset().top > 100) {
+      $("#navbar").addClass("navbar-shrink");
+    } else {
+      $("#navbar").removeClass("navbar-shrink");
+    }
+  };
+
   navbarCollapse();
   //Collapse navlink when clicked
   $(".navbar-nav>li>a").on("click", function () {
