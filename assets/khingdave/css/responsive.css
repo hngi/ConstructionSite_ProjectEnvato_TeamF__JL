@@ -1,0 +1,40 @@
+/* Screen from 576px t0 768px*/
+@media (max-width: 768px) {
+    .sect-heading h2 {
+        padding: 10px 0 0 10px;
+    }
+    .sect-heading h2::before {
+        display: none;
+    }
+    .sect-heading h2::after {
+        display: block;
+        margin-left: 0;
+    }
+    .testi > div {
+        width: 80% !important; 
+    }
+    .bp-list > div {
+        width: 100%;
+    }
+    .bp-list > div img {
+        width: 100%;
+    }
+    .hero > div {
+        animation: container 1000ms both;
+    }
+    @keyframes container {
+        0% {
+            transform: translateX(-9999px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+/* Screen from 0 t0 575x*/
+@media (max-width: 575px) {
+    .hero {
+        padding: 30px;
+    }
+    
+}
