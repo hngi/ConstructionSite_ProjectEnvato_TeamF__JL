@@ -23,6 +23,9 @@ margin-top: -10px;
 margin-bottom: 18px;
 margin-left: 8rem;
 }
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FCC139;
+}
 .my-4 hr {
  border: 2px solid #FCC139;
  width: 10%;
@@ -330,6 +333,102 @@ footer{
 
 
 /* responsive */
+@media(max-width:1024px){
+  .masthead{
+    height: 52vh;
+  }.recent-control {
+    margin-left: 41.5rem;
+}
+.mm {
+  margin: 0 auto;
+  margin-left: -2.5rem;
+  padding: 21px;
+}
+.pi {
+  width: 201px;
+  height: 119px;
+}
+.p-control {
+  margin-left: 36.5rem;
+}
+.blog-control {
+  margin-left: 42.4rem;
+}
+.col-md-4{
+  padding-right: 0px;
+}
+.blog-text {
+  font-size: 1.2rem;
+  margin-left: 0rem;
+}
+.card-tex {
+  font-size: 1rem;
+}
+.con-mob {
+  margin-left: 50.5rem;
+}
+.mi {
+  margin-left: 0rem;
+}
+}
+@media(max-width:834px){
+  .masthead {
+    height: 50vh;
+}
+.icon{
+  height: 20px;
+  width: 20px;
+}
+.icon2{
+  height: 20px;
+  width: 20px;
+}
+.blog-control {
+  margin-left: 35.9rem;
+}
+.col-md-4{
+  padding-right: 0px;
+}
+.con-mob {
+  margin-left: 39.8rem;
+}
+.blog-control {
+  margin-left: 32.1rem;
+}
+.blog hr {
+  width: 28.6%;
+}
+.service hr {
+  width: 34.6%;
+}
+.recent-control {
+  margin-left: 31.7rem;
+}
+.pi {
+  width: 186px;
+  height: 119px;
+}
+.mm {
+  margin-left: -4.5rem;
+  padding: 36px;
+}
+.p-control {
+  margin-left: 25.1rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+partners hr {
+  width: 32.4%;
+}
+.card-tex {
+  font-size: .76rem;
+}
+.carousel-item.active {
+  display: block;
+  margin-left: 4rem;
+  padding-right: 5rem;
+}
+}
 @media all and (max-width:800px){
   .one-auto{
     padding:1rem;
@@ -583,6 +682,20 @@ margin-top: 2rem;
 .ser{
   margin-top: 0rem;
   margin-bottom: 0rem;
+}
+@media(max-width:768px){
+  .p-control {
+    margin-left: 41.1rem;
+}
+.recent-control {
+  margin-left: 38.9rem;;
+}
+.blog-control {
+  margin-left: 38.9rem;
+}
+.con-mob {
+  margin-left: 41.7rem;
+}
 }
 @media(max-width:414px){
   .one-auto{
