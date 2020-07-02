@@ -10,34 +10,36 @@
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Core theme CSS-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    
     <title>Construction</title>
   </head>
 
   <body class="wrapper__page" id="home">
-    <div class="container-body1">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light py-10">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light py-2" id="navbar">
+        <div class="container" data-aos="fade-right" data-aos-duration="2000">
         <a href="index.html" class="navbar-brand"
           ><h3 class="d-inline align-middle">iCON<span class="colored">STRUCT</span></h3></a
             >
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item active">
-              <a class="nav-link col-yellow" href="#" style="color: #fcc139;">HOME</a>
+              <a class="nav-link col-yellow" href="#" style="color: #fcc139;">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#ourservices">Services</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link" href="#blogposts">Blog</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">CONTACT US</a>
+              <a class="nav-link" href="#footer">Contact Us</a>
             </li>
            <li class="nav-item active"><a href="#" class="nav-link"><i class="fa fa-search" aria-hidden="true"></i>   
            </a></li>
@@ -47,8 +49,13 @@
       
     <!-- Navbar -->
 
+    <!-- Scroll Top Button -->
+    <a id="scroll-top" href="#" class="scroll-top" role="button">
+        <i class="fas fa-arrow-up backIcon"></i>
+    </a>
+
     <!-- SHOWCASE SECTION -->
-    <section id="showcase" class="py-5">
+    <section id="showcase" class="p-5">
         <div class="primary-overlay text-white">
             <div class="container">
                 <div class="row">
@@ -69,69 +76,61 @@
     <!-- Yello Divider -->
     <section class="divider text-white yellow">
         <div class="container">
-            <div class="row d-flex flex-row justify-content-center">
-                <p class="text-center py-2">WE ARE EXPERTS, WE ARE AWESOME, WE ARE GOOD AT WHAT WE DO</p>
-            </div>
+                <div class="row d-flex flex-row justify-content-center">
+                    <div class="text-center mx-auto my-3 divider-w">WE ARE EXPERTS, WE ARE AWESOME, WE ARE GOOD AT WHAT WE DO</div>
+                </div>
         </div>
     </section>
 
     <!-- About us -->
-    <section id="aboutus" class="py-5">
+    <section id="aboutus" class="my-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-5 my-2">
-                    <div class="border-none">
-                       
-                            <h2 class="text-dark">ABOUT US</h2>
-                            <p class="mt-4 text-muted">Our job is not just to make what you have in mind become a reality but also to help you achieve the dream...</p>
-                            <a href="#" class="col-yellow">READ MORE</a>
-                    </div>
+            <div class="row mx-auto">
+                <div class="col-lg-4 col-md-9 mb-4">                       
+                            <h2 class="text-dark">About Us</h2>
+                            <p class="mt-4 text-muted lead">Our job is not just to make what you have in mind become a reality but also to help you achieve the dream...</p>
+                            <a href="#" class="col-yellow">Read More</a>
                 </div>
 
-                <div class="ab-img col-md-2 mr-5 col-sm-5 col-6">
-                    <div class="abt-1 mb-3">
+                <div class="ab-img col-lg-2 col-md-4 col-sm-8 col-9 mb-4 mx-auto">
+                    <div class="abt-1 mb-2 order-sm-2">
 
                     </div>
                     <!-- MODERN DESIGN -->
-                    <h5 class="pb-5">MODERN DESIGN</h5>
+                    <h5 class="order-sm-1">Modern Design</h5>
 
                 </div>
-                <div class="ab-img col-md-2 mr-4 col-sm-5 col-6">
-                    <div class="abt-2 mb-3"></div>
-                    <h5>TEAM WORK</h5>
+                <div class="ab-img col-lg-2 col-md-4 col-sm-8 col-9 mb-4 mx-auto">
+                    <div class="abt-2 mb-2"></div>
+                    <h5>Team Work</h5>
                 </div>
-                <div class="ab-img col-md-2 col-sm-5 col-6 last">
-                    <div class="abt-3 mb-3"></div>
-                    <h5>BEST HOUSE</h5>
+                <div class="ab-img col-lg-2 col-md-4 col-sm-8 col-9 last mx-auto">
+                    <div class="abt-3 mb-2"></div>
+                    <h5>Best House</h5>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Recent Projects -->
-    <section id="recentprojects" class="py-5">
+    <section id="recentprojects" class="my-5">
         <div class="primary-overlay text-white">
             <div class="container">
-                <h2 class="my-5 text-center">
-                    RECENT PROJECTS
+                <h2 class="my-5 text-center align-center">
+                    Recent Projects
                 </h2>
-                <div class="row">
-                    <div class="container-fluid" >
-                            <div class="row w-100 mx-auto ugu">
-                                <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="row d-flex flex-row justify-content-center align-items-center">
+                                <!-- <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg> -->
+                                <div class="col-6 col-sm-4 col-md-4 col-lg-4 rp">
                                     <div class="recentp-1"></div>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="rp col-6 col-sm-4 col-md-4 col-lg-4">
                                     <div class="recentp-2"></div>
                                 </div>
-                                <div class=" col-sm-4 col-md-3 col-lg-3 last">
+                                <div class="rp col-sm-4 col-md-4 col-lg-4 last">
                                     <div class="recentp-3"></div>
                                 </div>
-                                <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
-                                
-                            </div>
-                        </div>
+                                <!-- <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg> -->
                     </div>
             </div>
         </div>
@@ -140,28 +139,28 @@
 
 
     <!-- Blog Posts -->
-    <section id="blogposts" class="py-2">
+    <section id="blogposts" class="my-4">
             <div class="container c">
-                <h2 class="my-5">
-                    BLOG POSTS
+                <h2 class="my-5 pt-4">
+                    Blog Posts
                 </h2>
-                <div class="row pb-4">
-                            <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
-                            <div class="col-12 col-sm-12 col-md-3 ctext">
+                <div class="row pb-4 d-flex flex-row justify-content-center align-items-center">
+                            <!-- <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg> -->
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 ctext">
                                 <div class="white">
-                                      <h3 class="text-dark py-2">CONSTRUCTION</h3>
+                                      <h3 class="text-dark py-2 px- text-center">Construction</h3>
                                       <p class="lead"> We have a lot to say but we believe that actions speak a lot better than words. <br>
                                     Our customers.... </p>
                                   </div>
                             </div>
-                            <div class="blog-img col-sm-6 col-md-3 col-7 ">
-                                <div class="blog-0 mb-2"></div>
-                                <div class="blog-1"></div>
+                            <div class="blog-img col-sm-9 col-md-4 col-9 col-lg-4 ">
+                                <div class="blog-0 mb-1"></div>
+                                <div class="blog-1 mb-1"></div>
                             </div>
-                            <div class="last blog-img col-sm-6 col-md-3 col-7">
+                            <div class="last blog-img col-sm-9 col-md-4 col-9 col-lg-4">
                                 <div class="blog-2"></div>
                             </div>
-                            <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+                            <!-- <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg> -->
                         </div>
         </div>
 
@@ -169,54 +168,52 @@
 
 
     <!-- Our Services -->
-    <section id="ourservices" class="py-2">
+    <section id="ourservices" class="mt-5">
         <div class="container">
-            <div class="ourserviceC">
             <h2 class="my-4">
-                OUR SERVICES
+                Our Services
             </h2>
-            <div class="row py-4">
-                <div class="os col-sm-12 col-md-3 col-lg-3 col-12 mr-5 mb-3">
+            <div class="row py-4 d-flex flex-row justify-content-center align-items-center">
+                <div class="os col-10 col-sm-4 col-md-4 col-lg-4 mb-3">
                     <div class="s1">
                         <div class="service1">
                             <div class="serv-1"></div>
-                                   <h4 class="">DELIVERY TRUCK</h4>
+                                   <h4>Delivery Truck</h4>
                                </div>
                     </div>
                             
                         </div>
-                <div class="os col-sm-12 col-md-3 col-lg-3 col-12 mr-5 mb-3">
+                <div class="os col-10 col-sm-4 col-md-4 col-lg-4 mb-3">
                     <div class="s2">
                         <div class="service2">
                             <div class="serv-2"></div>
-                                   <h4 class="lt" >BULLDOZER</p>
+                                   <h4 class="lt" >Bulldozer</p>
                                </div>
                     </div>
                             
                         </div>
-                <div class="os last col-sm-12 col-md-6 col-lg-3 col-12">
+                <div class="os col-10 last col-sm-4 col-md-4 col-lg-4 mb-3">
                     <div class="s3">
                         <div class="service3">
                             <div class="serv-3"></div>
-                                   <h4 class="lt">EXCAVATOR</h4>
+                                   <h4 class="lt">Excavator</h4>
                                </div>
                     </div>
                             
                         </div>
                     </div>
                 </div>
-        </div>
     </section>
 
     <!-- TESTIMONIAL -->
-    <section id="testimonials" class="py-5 my-2">
+    <section id="testimonials" class="mt-5">
         <div class="primary-overlay text-white">
             <div class="container">
-                <h3 class="py-4 d-flex flex-row justify-content-center text-center">
-                    TESTIMONIALS
+                <h3 class="py-4 d-flex justify-content-center text-center">
+                    Testimonials
                 </h3>
-                        <div class="row">
-                            <div class="img-slide im1  mr-5 col-md-5 col-sm-12">
+                        <div class="row w-100 d-flex flex-row justify-content-center align-items-center mx-auto my-auto">
+                            <div class="img-slide im1  mb-1 mx-auto col-md-5 col-sm-12">
                                 <p>iConstruct have been leading the construction industry for quiet sometime now and when they handled my new scrscraper, the job was nothing short of amazing.</p>
                                 <div class="contact">
                                     <img src="img/Ellipse 1.png" class="rounded img-fluid mr-2" alt="...">
@@ -226,7 +223,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="img-slide im2 ml-5 col-md-5 col-sm-12">
+                            <div class="img-slide im2 mb-1 col-md-5 col-sm-12 mx-auto">
                                 <p>iConstruct have been leading the construction industry for quiet sometime now and when they handled my new scrscraper, the job was nothing short of amazing.</p>
                                 <div class="contact">
                                     <img src="img/avatar2.png" class="rounded img-fluid mr-2" alt="...">
@@ -244,73 +241,73 @@
 
 
     <!-- Recent News -->
-    <section id="recentnews" class="pt-5">
+    <section id="recentnews" class="mt-5">
         <div class="container">
-            <h2 class="my-5">
-                RECENT NEWS
+            <h2 class="my-5 pt-3">
+                Recent News
             </h2>
-            <div class="row pb-5">
-                <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
+            <div class="row pb-2 d-flex flex-row justify-content-center align-items-center mx-auto">
+                <!-- <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg> -->
 
-                <div class="rn col-lg-3 col-md-3 mr-2">
+                <div class="rn col-lg-4 col-md-4 col-sm-10 col-10 mb-5">
                     <div class="recent-1"></div>
                     <div class="rn1 pt-4">
-                        <h4>BEST HOUSE</h4>
+                        <h4>Best House</h4>
                         <p class="muted">
                             Our job is not just to make what you have in mind become a reality but also to help you achieve the dream... 
                         </p>
-                        <a href="#" class="colored">READ MORE</a>
+                        <a href="#" class="colored">Read More</a>
                     </div>
                 </div>
-                <div class="rn col-md-3 col-lg-3">
+                <div class="rn col-md-4 col-lg-4 col-sm-10 col-10 mb-5">
                     <div class="recent-2"></div>
-                    <div class="rn2 pt-4">
-                        <h4>BEST HOUSE</h4>
+                    <div class="rn2 pt-4 ">
+                        <h4 class="text-sm-center">Best House</h4>
                         <p class="muted">
                             Our job is not just to make what you have in mind become a reality but also to help you achieve the dream... 
                         </p>
-                        <a href="#" class="colored">READ MORE</a>
+                        <a href="#" class="colored">Read More</a>
                     </div>
                 </div>
-                <div class="rn col-md-3 col-lg-3">
+                <div class="rn col-md-4 col-lg-4 col-sm-10 col-10 mb-5">
                     <div class="recent-3"></div>
                     <div class="rn3 pt-4">
-                        <h4>BEST HOUSE</h4>
+                        <h4>Best House</h4>
                         <p class="muted">
                             Our job is not just to make what you have in mind become a reality but also to help you achieve the dream... 
                         </p>
-                        <a href="#" class="colored">READ MORE</a>
+                        <a href="#" class="colored">Read More</a>
                     </div>
                 </div>
 
 
-                <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+                <!-- <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg> -->
             </div>
         </div>
     </section>
 
     <!-- Our Patners -->
-    <section id="ourpartners" class="py-5">
-        <div class="container c">
+    <section id="ourpartners" class="mt-5">
+        <div class="container">
             <h2 class=" my-4">
-                OUR PARTNERS
+                Our Partners
             </h2>
-            <div class="row">
-                <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
+            <div class="row d-flex flex-row justify-content-center align-items-center mx-auto">
+                <!-- <svg class="svg-inline--fa fa-caret-left fa-w-6 leftFA" style="color: #fcc139;" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg> -->
 
-                <div class="op1 col-md-2 col-sm-6 col-12">
+                <div class="op1 col-md-3 col-sm-6 col-12 mb-4">
                     <img src="img/envato-pty-ltd-vector-logo-1.png" alt="" class="img-fluid rounded">
                 </div>
-                <div class="op2 col-md-2 col-sm-6 col-12">
+                <div class="op2 col-md-3 col-sm-6 col-12 mb-4">
                     <img src="img/waltdisneylogo-2.png" alt="" class="img-fluid rounded">
                 </div>
-                <div class="op3 col-md-2 col-sm-6 col-12">
+                <div class="op3 col-md-3 col-sm-6 col-12 mb-4">
                     <img src="img/Coca_Cola 1.png" alt="" class="img-fluid rounded">
                 </div>
-                <div class="op4 last col-md-2 col-sm-6 col-12">
+                <div class="op4 last col-md-3 col-sm-6 col-12 mb-4">
                     <img src="img/wordpress-logo 1.png" alt="" class="img-fluid rounded">
                 </div>
-                <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+                <!-- <svg class="svg-inline--fa fa-caret-right fa-w-6 rightFA" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg=""><path fill="#fcc139" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg> -->
             </div>
         </div>
     </section>
@@ -318,21 +315,21 @@
 
 
     <!--Footer -->
-    <footer class="footer py-4">
+    <footer class="footer pt-2" id="footer">
         <div class="container">
-            <div class="row row1">
-                <div class="f1 col-md-3 col-sm-6 col-12">
+            <div class="row d-flex flex-row justify-content-center align-items-center">
+                <div class="f1 col-md-3 col-sm-6 col-12 mb-4 mt-2">
                     <h5>iCONSTRUCT</h5>
                     <p>We set the pace for others to follow in the construction.</p>
                     <p>Business, if we can think it, we can make it!</p>
                 </div>
-                <div class="f2 col-md-3 col-sm-6 col-12">
-                    <h5>GET IN TOUCH</h5>
+                <div class="f2 col-md-3 col-sm-6 col-12 mb-4 mt-2">
+                    <h5>Get In Touch</h5>
                     <p>No 111 Federal Housing Estate Victoria Island</p>
                     <p>+2347055566674</p>
                     <p>iconstruct@gmail.com</p>
                 </div>
-                <div class="f-img col-md-3 pt-2 col-sm-6 col-12">
+                <div class="f-img col-md-3 pt-2 col-sm-6 col-12 mb-4 mt-2">
                     <div class="fhorizontal d-flex flex-row">
                     <div class="f11"></div>
                     <div class="f12"></div>
@@ -346,11 +343,11 @@
                     <div class="f24"></div>
                     </div>
                 </div>
-                <div class="subscribe col-md-3 col-sm-6 col-12">
-                    <h5 class="mb-3">SUBSCRIBE</h5>
+                <div class="subscribe col-md-3 col-sm-6 col-12 mb-4 mt-2">
+                    <h5 class="mb-3">Subscribe</h5>
                     <form class="mt-2 d-flex flex-column align-items-start" action="">
-                        <input type="email" class="input px-5 py-2">
-                        <button type="submit"class="btn py-2 footerbtn col-yellow">SUBSCRIBE</button>
+                        <input type="email" class="input px-4 py-2" placeholder="Email">
+                        <button type="submit"class="btn py-2 footerbtn col-yellow">Subscribe</button>
                       </form>
                 </div>
             </div>
@@ -358,14 +355,20 @@
                 Copyright of iConstruct Nig Ltd
             </div>
         </div>
+
+        <!-- Scroll Top Button -->
+        <a id="scroll-top-footer" href="#" class="scroll-top-footer" role="button">
+            <i class="fas fa-arrow-up backIcon"></i>
+        </a>
     </footer>
 
     <!--Footer -->
-</div>
     <!-- Bootstrap JS Links  -->
     <script src="./assets/jquery//jquery-3.5.1.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/popper/popper.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Javascript Link -->
     <script src="./js/app.js"></script>
   </body>
