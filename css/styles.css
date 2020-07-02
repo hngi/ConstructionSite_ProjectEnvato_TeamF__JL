@@ -84,8 +84,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 17rem;
-
+  padding-top: 13rem;
 }
 
 .home-heading {
@@ -96,7 +95,7 @@ body {
 }
 
 .home-heading h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 1.1rem auto;
 }
@@ -217,6 +216,44 @@ body {
 .workflow p {
   color: white;
   line-height: 30px;
+}
+
+.circle {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 1px solid white;
+  margin: auto;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.circle p {
+  font-size: 1.8rem;
+  align-self: center;
+  justify-self: center;
+}
+.circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 155px;
+  height: 1px;
+  background: white;
+  top: 50%;
+  left: 130px;
+}
+
+.circle:last-of-type::after {
+  content: "";
+}
+
+.circle:hover  {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2rem;
+  align-self: center;
 }
 
 
@@ -409,7 +446,7 @@ body {
   padding: 0 6rem;
 }
 
-.form-control {
+.input-group {
   border-radius: 0;
 }
 
@@ -475,6 +512,7 @@ body {
   .home-heading {
     margin-left: 0;
     padding-left: 1.1rem;
+    text-align: center;
   }
   .home-heading h1 {
     font-size: 1.8rem;
