@@ -38,6 +38,7 @@ body {
 
 #navbarNav a {
   color: #ffffff;
+  font-size: 1.2rem;
   transition: color 0.3s ease-in-out;
 }
 
@@ -88,25 +89,28 @@ body {
 .home-heading {
   color: white;
   margin-bottom: 0rem;
+  text-align: center;
 }
 
 .home-heading h1 {
   font-size: 1.2rem;
   font-weight: 600;
   margin: 1.3rem auto;
+ 
 }
 
 .home-heading p {
   font-size: 1rem;
+  font-weight: 500;
+  color: white;
 }
 
 .btn-home {
   background-color: var(--primary-color);
   color: white;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
   padding: 0.75rem 3rem;
   border: 2px solid var(--primary-color);
-  margin-top: 1rem;
 }
 
 .btn-home:hover {
@@ -117,10 +121,9 @@ body {
 
   .home-heading p {
     font-size: 1.5rem;
+    color: white;
   }
-  .btn-home {
-    margin-top: 2rem;
-  }
+
 
 /* About Us*/
 .about {
