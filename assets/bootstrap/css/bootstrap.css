@@ -19,13 +19,13 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #007bff;
-  --secondary: #6c757d;
+  --secondary: #F9F9F9;;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #ffc107;
+  --warning: ##FFA700;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #DDDDDD;;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
