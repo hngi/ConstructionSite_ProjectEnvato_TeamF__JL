@@ -229,37 +229,13 @@ body{
   margin: 20px;
 }
 
-.btm{
+.main-box{
   background: #202E31;
   height: 246px;
   margin-left: -50px;
-  padding: 20px;
+  padding: 40px;
 }
 
-/* .down .float-right{
-  margin-right: -100px !important;
-} */
-
-.btm-2{
-  width: 800px;
-}
-
-.down .float-left h4,
-.down .btm-2 h4,
-.down .float-right h4{
+.down h4{
   color: #FCC139;
-}
-
-.down .float-right{
-  margin-top: -150px;
-}
-
-.sub .btn-2{
-  background: #FCC139;
-  padding: 5px !important;
-  border: none;
-}
-
-.sub input{
-  width: 300px;
 }
