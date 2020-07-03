@@ -136,6 +136,9 @@ body {
 }
 .card {
   background-color: #F9F9F9;
+  min-height: 420px;
+  height: 480px;
+  padding-bottom: 1.5rem;
 }
 
 .btn-warning {
@@ -217,11 +220,10 @@ body {
   color: white;
   line-height: 30px;
 }
-
 .circle {
   position: relative;
-  width: 130px;
-  height: 130px;
+  width:50%;
+  padding-bottom:50%;
   border: 1px solid white;
   margin: auto;
   border-radius: 50%;
@@ -230,12 +232,20 @@ body {
   justify-content: center;
   align-content: center;
 }
-.circle p {
-  font-size: 1.8rem;
-  align-self: center;
-  justify-self: center;
+
+.circle-line {
+  position: relative;
 }
-.circle::after {
+
+.circle p {
+  position:absolute;
+  top:50%; left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  font-size: 1.5rem;
+}
+
+/* .circle-line::after {
   content: "";
   display: block;
   position: absolute;
@@ -244,11 +254,9 @@ body {
   background: white;
   top: 50%;
   left: 130px;
-}
+} */
 
-.circle:last-of-type::after {
-  content: "";
-}
+
 
 .circle:hover  {
   background-color: rgba(255, 255, 255, 0.1);
@@ -264,15 +272,28 @@ body {
 }
 
 .people .card {
-  overflow: show;
   box-shadow: 0px 11px 21px hsla(228, 6%, 66%, 0.5);
   border: none;
-  border-bottom: 5px solid var(--primary-color);
 }
 
-.people .card img {
-  margin-top: -50px;
+.people .card-text {
+  font-size: 1.1rem;
+
 }
+
+
+.people .card-body {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+}
+
+.card-body h4 {
+  text-align: center;
+}
+
 
 .carousel-inner {
   padding-top: 3.2rem;
@@ -300,9 +321,44 @@ body {
 .service {
   background-color: white;
   color: #3a3a3a;
-  max-width: 300px;
-  margin:auto;
+  max-width: 320px;
+  height: 280px;
+  margin: 3rem auto;
   border-radius: 5px;
+  border: 1px solid #C4C4C4;
+}
+
+.service-icon {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  border: 1px solid #C4C4C4;
+  padding: 0;
+  max-height: 100px;
+  max-width: 100px;
+}
+.service-title h4{
+  margin-top: 1.6rem;
+  font-size: 1.3rem;
+  padding-left: 6rem;
+  width: 100%;
+  text-align: center;
+}
+
+.bridge {
+  margin-left: 1.8rem;
+  padding-right: 2.8rem;
+}
+.col-spaced p{
+  margin: 3rem auto;
+  text-align: left;
+  padding-left: 35px;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+
+.service-icon img {
+  width: 100%;
 }
 .service:hover {
   background-color: #f4f4f4;
@@ -337,16 +393,20 @@ body {
 /* Blog */
 .blog {
   margin-top: 7rem;
+  
 }
 .blog-date {
   position: absolute;
-  background-color: #FFA700;
-  color: #ffffff;
+  top: 190px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 600;
   padding: 0.5rem 1.5rem;
 }
 .blog .card {
-  min-width: 210px;
+  min-width: 350px;
   border: none;
+  margin: auto;
 }
 
 .blog .card-body {
@@ -375,7 +435,7 @@ body {
 
 
 /* Banner */
-.banner {
+.banners {
   background-image: url("../images/projects/Rectangle\ 49.png");
   width: 100%;
   min-height: 300px;
@@ -383,13 +443,14 @@ body {
   background-position: center center;
   background-size: cover;
   margin-top: 3rem;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   position: relative;
   z-index: 1;
   font-size: 2rem;
 }
 
-.banner:before {
+.banners:before {
   content: "";
   position: absolute;
   top: 0;
@@ -399,11 +460,17 @@ body {
   background-color: #001643b7;
   z-index: -1;
 }
-
+.banner {
+  border: 1px solid white;
+  min-width: 280px;
+  height: 200px;
+  margin-bottom: 10px;
+}
 .banner__number {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 0;
+
 }
 
 .banner__text {
@@ -446,7 +513,7 @@ body {
   padding: 0 6rem;
 }
 
-.input-group {
+.form-control {
   border-radius: 0;
 }
 
@@ -487,6 +554,10 @@ body {
   .btn-navbar {
     margin-left: 1rem;
   }
+  .blog-date {
+  
+    top: 160px;
+  }
 }
 
 /* Home h1 text */
@@ -498,6 +569,7 @@ body {
     margin-left: 6rem;
     padding-left: 6rem;
   }
+  
 }
 /*our company */
 @media screen and (min-width: 1200px) {
@@ -519,5 +591,15 @@ body {
   }
   .home-heading p {
     font-size: 1rem;
+  };
+
+  .workflow-circles {
+    display: none;
   }
+  .circle {
+    display: none;
+  }
+  
 }
+
+
