@@ -5,3 +5,237 @@
   scroll-behavior: smooth;
 }
 
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand{
+  font-weight: bolder;
+}
+
+.navbar-nav .form-inline{
+  margin-right: 100px !important;
+}
+
+.navbar-nav .btn{
+  color: #FCC139;
+}
+
+.navbar-nav input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 400px !important;
+  padding: 10px;
+}
+
+.nav-item .nav-link{
+  color: #000000 !important;
+}
+
+.jumbotron {
+  height: 525px;
+  background-image: url("/img/Group\ 85.png");
+  background-size: cover;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.jumbotron h1{
+  font-weight: bold;
+  color: #FCC139;
+}
+
+.jumbotron .line{
+  width: 125px;
+  height: 10px;
+  color: #fff;
+  margin: auto;
+}
+
+.jumbotron .btn{
+  border-radius: 0px !important;
+}
+
+.footer p{
+  left: 0;
+  bottom: 160px;
+  padding: 10px;
+  width: 100%;
+  background-color: #3A3A3A;
+  color: white;
+  text-align: center;
+}
+
+.card{
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card img{
+  width: 316px;
+}
+
+.card .btn{
+  color: #ffffff;
+}
+
+.card p{
+  color: #908888;
+}
+
+.container h3{
+  font-weight: bold;
+}
+
+.container .First{
+  background: url(/img/Group\ 86.png) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  overflow: hidden;
+}
+
+.First .carousel-item{
+  margin: auto;
+}
+
+.First .carousel-item img{
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-right: 0;
+  overflow: none;
+}
+
+.First .carousel-control-prev,
+.First .carousel-control-next {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 120px;
+  color: #FCC139;
+  background: #3A3A3A;
+}
+
+.container .second{
+  background: #C4C4C4;
+  padding: 50px;
+  height: 345px;
+  overflow: hidden;
+}
+
+.second img{
+  width: 835px;
+  height: 250px !important;
+  margin: 0 auto;
+}
+
+.second .carousel-control-prev,
+.second .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+  color: #FCC139;
+  background: #3A3A3A;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.container .box{
+  padding: 20px;
+}
+
+.box .bd{
+  width: 270px;
+  height: 162px;
+  margin-left: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  box-shadow: 4px 10px 10px 4px #F3F3F3;
+}
+
+.box .bd img{
+  margin-top: 20px;
+}
+
+#carouselExampleCaptions{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/img/Rectangle\ 57.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 100px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  color:#fff;
+  height: 10px;
+  width: 10px;
+}
+
+.carousel-indicators .active{
+  background-color: #FCC139;
+}
+
+#myCarousel{
+  background: url("/img/Group\ 52.png") center center/cover;
+  padding: 10px 30px 10px 30px;
+}
+
+#myCarousel .carousel-item{
+  background: #202E31;
+  padding: 30px;
+}
+
+.carousel-inner .box-side{
+  margin-right: -130px !important;
+  margin-left: 100px;
+}
+
+.box-side h5{
+  color: #fcc139;
+}
+
+#carouselExample{
+  background: #C4c4c4;
+  padding: 50px;
+}
+
+#carouselExample .carousel-control-prev,
+#carouselExample .carousel-control-next{
+  width: 60px;
+  height: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 120px;
+  color: #FCC139;
+  background: #3A3A3A;
+}
+
+.carousel-item h4{
+  background: #202E31;
+  color: #fcc139;
+  padding: 5px;
+}
+
+.box-2 img{
+  margin-top: 10px;
+  margin: 20px;
+}
+
+.main-box{
+  background: #202E31;
+  height: 246px;
+  margin-left: -50px;
+  padding: 40px;
+}
+
+.down h4{
+  color: #FCC139;
+}
